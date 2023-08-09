@@ -5,7 +5,7 @@ Rethereun Static Website
 Basic requirements
 
 - Header
-- - link to our discord: Our official links are as follows: -
+- - link to our discord: https://discord.gg/xCB4AJDEFb
 - - Link to our Explorer: https://explorer.rethereum.org/
 - - Link to our Github Org: https://github.com/Rethereum-blockchain
 - Small excerpt about the project - Creative freedom is encouraged. 
