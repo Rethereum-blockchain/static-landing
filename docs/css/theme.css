@@ -189,3 +189,11 @@ body {
   a {
     text-decoration: none;
   }
+
+  .rth-gradient {
+    background: #2FDEC3;
+    background: repeating-radial-gradient(circle farthest-corner at center center, #2FDEC3 0%, #1299D8 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+  }
