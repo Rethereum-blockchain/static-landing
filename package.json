@@ -1,8 +1,8 @@
 {
-  "name": "liquid",
-  "title": "Liquid",
+  "name": "Rethereum Static Landing",
+  "title": "Rethereum Static Landing",
   "version": "2.0.2",
-  "description": "Investment and Forex HTML Template",
+  "description": "Rethereum Frontend Site",
   "private": true,
   "scripts": {
     "build": "node ./node_modules/blockit-builder/blockit.js --build",
