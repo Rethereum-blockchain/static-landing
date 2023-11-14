@@ -1,0 +1,18 @@
+$notification-position:                                20px;
+$notification-z-index:                                 $global-z-index + 40;
+$notification-width:                                   470px;
+
+$notification-message-margin-top:                      10px;
+$notification-message-padding:                         $global-small-gutter;
+$notification-message-background:                      $global-inverse-color;
+$notification-message-color:                           $global-color;
+$notification-message-font-size:                       0.875rem;
+$notification-message-line-height:                     1.4;
+
+$notification-close-top:                               $notification-message-padding + 5px;
+$notification-close-right:                             $notification-message-padding;
+
+$notification-message-primary-color:                   $info;
+$notification-message-success-color:                   $global-success-background;
+$notification-message-warning-color:                   $global-warning-background;
+$notification-message-danger-color:                    $global-danger-background;

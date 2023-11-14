@@ -1,0 +1,46 @@
+.in-pricing-2 {
+    .uk-card {
+        transition: all ease 600ms;        
+    } 
+    .uk-card-default {
+        background-color: $global-inverse-color;
+        border-bottom-left-radius: $border-rounded-border-radius;
+        border-bottom-right-radius: $border-rounded-border-radius;
+    }
+    .uk-card-header {
+        border-top-left-radius: $border-rounded-border-radius;
+        border-top-right-radius: $border-rounded-border-radius;
+        border-top: 0;
+        background-color: $global-secondary-background;
+        h3 {
+            color: $global-inverse-color;
+        }
+        h4 {
+            color: $global-inverse-color;
+        }
+        .in-pricing-small {
+            font-size: 24px;
+            margin-right: -10px;
+            top: -3px;
+            position: relative;            
+        }        
+    }
+    .uk-card-body {
+        padding-top: 25px;
+        box-shadow: inset 0px 0px 0px $global-border-width $global-border;
+        border-bottom-left-radius: $border-rounded-border-radius;
+        border-bottom-right-radius: $border-rounded-border-radius;
+        transition: all ease 600ms;
+    }
+    &.in-pricing-featured {
+        .uk-card {
+            &:hover {
+                background-color: lighten($global-primary-background, 45%);
+                border-color: $global-primary-background;
+            }
+        }
+        .uk-card-header {
+            background-color: $global-primary-background;
+        }
+    }
+}

@@ -1,0 +1,23 @@
+<!-- slideshow content begin -->
+<div class="uk-section uk-padding-remove-vertical">
+    <div class="uk-light in-slideshow uk-background-cover uk-background-top-center" style="background-image: url({{root}}img/in-liquid-slide-bg.png);" data-uk-slideshow>
+        <ul class="uk-slideshow-items">
+            {{slide-id}}
+        </ul>
+        <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" data-uk-slidenav-previous data-uk-slideshow-item="previous"></a>
+        <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" data-uk-slidenav-next data-uk-slideshow-item="next"></a>
+        {{#ifpage 'index'}}
+        {{> component-slideshow-extend-4}}
+        {{/ifpage}}
+        {{#ifpage 'homepage2'}}
+        {{> component-slideshow-extend-2}}
+        {{/ifpage}}
+        {{#ifpage 'homepage3'}}
+        {{> component-slideshow-extend-3}}
+        {{/ifpage}}
+        {{#ifpage 'homepage4'}}
+        {{> component-slideshow-extend-4}}
+        {{/ifpage}}
+    </div>
+</div>
+<!-- slideshow content end -->

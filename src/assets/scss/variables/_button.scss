@@ -1,0 +1,59 @@
+$button-line-height:                             42px;
+$button-small-line-height:                       32px;
+$button-large-line-height:                       54px;
+
+$button-font-size:                               11.5px;
+$button-small-font-size:                         10px;
+$button-large-font-size:                         1rem;
+
+$button-padding-horizontal:                      21px;
+$button-small-padding-horizontal:                15px;
+$button-large-padding-horizontal:                28px;
+
+$button-default-background:                      transparent;
+$button-default-color:                           #999;
+$button-default-hover-background:                transparent;
+$button-default-hover-color:                     darken($global-primary-background, 10%);
+$button-default-active-background:               darken($button-default-background, 10%);
+$button-default-active-color:                    $global-emphasis-color;
+
+$button-primary-background:                      $global-primary-background;
+$button-primary-color:                           $global-inverse-color;
+$button-primary-hover-background:                darken($button-primary-background, 5%);
+$button-primary-hover-color:                     $global-inverse-color;
+$button-primary-active-background:               darken($button-primary-background, 10%);
+$button-primary-active-color:                    $global-emphasis-color;
+
+$button-secondary-background:                    $global-secondary-background;
+$button-secondary-color:                         $global-inverse-color;
+$button-secondary-hover-background:              darken($button-secondary-background, 5%);
+$button-secondary-hover-color:                   $global-inverse-color;
+$button-secondary-active-background:             darken($button-secondary-background, 10%);
+$button-secondary-active-color:                  $global-inverse-color;
+
+$button-danger-background:                       $global-danger-background;
+$button-danger-color:                            $global-inverse-color;
+$button-danger-hover-background:                 darken($button-danger-background, 5%);
+$button-danger-hover-color:                      $global-inverse-color;
+$button-danger-active-background:                darken($button-danger-background, 10%);
+$button-danger-active-color:                     $global-inverse-color;
+
+$button-disabled-background:                     $global-muted-background;
+$button-disabled-color:                          $global-muted-color;
+
+$button-text-line-height:                        $global-line-height;
+$button-text-color:                              #999;
+$button-text-hover-color:                        $global-muted-color;
+$button-text-disabled-color:                     $global-muted-color;
+
+$button-link-line-height:                        $global-line-height;
+$button-link-color:                              $global-emphasis-color;
+$button-link-hover-color:                        $global-muted-color;
+$button-link-hover-text-decoration:              none;
+$button-link-disabled-color:                     $global-muted-color;
+
+$inverse-button-default-background:             transparent;
+$inverse-button-default-color:                  $global-inverse-color;
+$inverse-button-default-hover-color:            $global-inverse-color;
+$inverse-button-link-color:                     rgba(255,255,255,.5);
+$inverse-button-link-hover-color:               rgba($global-inverse-color, 0.7);

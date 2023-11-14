@@ -1,0 +1,33 @@
+@mixin hook-button(){
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all ease 400ms;
+}
+@mixin hook-button-default(){ 
+    box-shadow: inset 0px 0px 0px 2px #ccc;
+}
+@mixin hook-button-default-hover(){ 
+    box-shadow: inset 0px 0px 0px 2px darken($global-primary-background, 5%);
+}
+@mixin hook-button-text(){
+    position: relative;
+    &::before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 100%;
+        border-bottom: $global-border-width solid $global-primary-background;
+        transition: right 0.3s ease-out;
+    }
+}
+@mixin hook-button-text-hover(){
+    &::before { right: 0; }
+}
+@mixin hook-inverse-button-default(){
+    box-shadow: inset 0px 0px 0px 2px darken($global-primary-background, 5%);
+}
+@mixin hook-inverse-button-default-hover(){
+    box-shadow: inset 0px 0px 0px 2px $global-inverse-color;
+}

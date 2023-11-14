@@ -1,0 +1,90 @@
+.in-timeline-2 {    
+    margin: 30px auto;
+    position: relative;
+    padding: 1px 10px;
+    .uk-card-default {
+        border: $global-border-width solid $global-border;
+        background-color: $global-inverse-color;
+    }
+    &:before {
+        content:"";
+        width: $global-border-width;
+        height: 100%;
+        background: $global-border;
+        left: 50%;
+        top: 0;
+        position: absolute;
+    }
+    &:after {
+        content: "";
+        clear: both;
+        display: table;
+        width: 100%;
+    }
+    .in-timeline-item {
+        margin: 25px 0;
+        position: relative;
+        &:after, &:before {
+            content: '';
+            display: block;
+            width: 100%;
+            clear: both;
+        }
+        &:before {
+            width: 14px;
+            height: 14px;
+            background: $global-primary-background;
+            border: 10px solid $global-background;
+            border-radius: 50%;
+            position: absolute;
+            top: 20px;
+            left: 50%;
+            overflow: hidden;
+            margin-left: -16px;
+        }
+        .in-timeline-content {
+            width: 45%;
+            &.right {
+                float: right;
+            }
+            &.uk-card-body {
+                padding-bottom: 25px;
+            }
+            .uk-position-bottom-right {
+                i {
+                    color: rgba(0, 0, 0, .08);
+                    position: relative;
+                    right: -20px;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 960px) {
+    .in-timeline-2 {
+        margin: 10px 0;
+        padding: 1px 0;
+        width: 100%;
+        &:before {
+        left: 0;
+        }
+        .in-timeline-item {
+            &:before {
+                left: 0;
+            }
+            .in-timeline-content {
+                width: 93%;
+                float: right;
+            }
+        }
+    }
+}
+@media (max-width: 640px) {
+    .in-timeline-2 {
+        .in-timeline-item {
+            .in-timeline-content {
+                width: 90%;
+            }
+        }
+    }
+}

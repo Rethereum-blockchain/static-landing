@@ -1,0 +1,32 @@
+<article class="uk-card uk-card-default uk-border-rounded">
+    <div class="uk-card-body">
+        <h3>
+            <a href="${this.sanitizePath}/${link}" class="link-primary text-decoration-none">${title}</a>
+        </h3>
+        <p>${content}</p>
+        <div class="uk-flex">
+            <div class="uk-margin-small-right">
+                <img class="uk-border-pill uk-background-muted" src="${author.avatar}" alt="author" width="32" height="32">
+            </div>
+            <div class="uk-flex uk-flex-middle">
+                <p class="uk-text-small uk-text-muted uk-margin-remove">
+                    ${author.name}
+                    <span class="uk-margin-small-left uk-margin-small-right">•</span>
+                </p>
+            </div>
+            <div class="uk-flex uk-flex-middle">
+                <p class="uk-text-small uk-text-muted uk-margin-remove">
+                    ${date}
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="uk-card-footer uk-clearfix">
+        <div class="uk-float-left">
+            <span class="uk-label uk-label-success uk-text-small uk-border-pill">${category}</span>
+        </div>
+        <div class="uk-float-right">
+            <a href="${this.sanitizePath}/${link}" class="uk-button uk-button-text uk-text-primary">Read more<i class="fas fa-long-arrow-alt-right uk-margin-small-left"></i></a>
+        </div>
+    </div>
+</article>

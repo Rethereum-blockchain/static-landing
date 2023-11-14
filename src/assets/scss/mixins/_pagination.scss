@@ -1,0 +1,21 @@
+@mixin hook-pagination-item(){
+    width: 42px;
+    text-align: center;
+    border: $global-border-width solid $global-border;
+    border-radius: 7px;
+    padding: 9px 0;
+    transition: all ease .5s;
+    i {
+        position: relative;
+        top: -1px;
+    }
+}
+@mixin hook-pagination-item-active(){
+    background: $global-primary-background;
+    border-color: $global-primary-background;
+}
+@mixin hook-pagination-item-hover(){
+    transition: all ease .5s;
+    color: $global-color;
+    background: #f8f8f8;
+}

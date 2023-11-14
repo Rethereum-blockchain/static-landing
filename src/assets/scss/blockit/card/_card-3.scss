@@ -1,0 +1,16 @@
+.in-card-3 {
+    .uk-card-default {
+        border: $global-border-width solid $global-border;
+        background-color: $global-inverse-color;
+    }
+    img {
+        border-top-right-radius: $border-rounded-border-radius;
+        border-bottom-right-radius: $border-rounded-border-radius;
+    }
+    @media (max-width: 960px) {
+        img {
+            border-top-left-radius: $border-rounded-border-radius;
+            border-bottom-right-radius: 0;
+        }
+    }
+}

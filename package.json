@@ -1,15 +1,21 @@
 {
-  "name": "rethereum-static-landing",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "liquid",
+  "title": "Liquid",
+  "version": "2.0.2",
+  "description": "Investment and Forex HTML Template",
+  "private": true,
   "scripts": {
-    "dev": "node ."
+    "build": "node ./node_modules/blockit-builder/blockit.js --build",
+    "blockit": "node ./node_modules/blockit-builder/blockit.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "mudza09",
+  "license": "MIT",
   "dependencies": {
-    "express": "^4.17.1"
+    "@fortawesome/fontawesome-free": "6.4.0",
+    "share-buttons": "1.9.0",
+    "uikit": "3.16.17"
+  },
+  "devDependencies": {
+    "blockit-builder": "^3.3.2"
   }
 }

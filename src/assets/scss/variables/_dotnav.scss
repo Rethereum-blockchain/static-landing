@@ -1,0 +1,16 @@
+$dotnav-margin-horizontal:                       12px;
+$dotnav-margin-vertical:                         $dotnav-margin-horizontal;
+
+$dotnav-item-width:                              12px;
+$dotnav-item-height:                             $dotnav-item-width;
+$dotnav-item-border-radius:                      50%;
+
+$dotnav-item-background:                         rgba($global-color, 0.2);
+$dotnav-item-hover-background:                   rgba($global-color, 0.6);
+$dotnav-item-onclick-background:                 rgba($global-color, 0.2);
+$dotnav-item-active-background:                  rgba($global-color, 0.6);
+
+$inverse-dotnav-item-background:                 $global-inverse-color;
+$inverse-dotnav-item-hover-background:           $global-inverse-color;
+$inverse-dotnav-item-onclick-background:         rgba($global-inverse-color, 0.5) !default;
+$inverse-dotnav-item-active-background:          $global-primary-background;

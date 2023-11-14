@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{setting.siteInfo.metaDescription}}">
+    <meta name="keywords" content="{{#each setting.siteInfo.metaKeywords }}{{this}}{{#unless @last}}, {{/unless}}{{/each}}">
+    <meta name="author" content="{{setting.siteInfo.metaAuthor}}">
+    <meta name="theme-color" content="{{setting.siteInfo.metaThemeColor}}">
+    {{#if setting.optimization.preloadCritical}}
+    {{> component-preload }}
+    {{/if}}
+    {{> component-styles }}
+    <!-- uikit -->
+    <script src="{{root}}js/vendors/uikit.min.js"></script>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="{{root}}{{setting.siteInfo.favicon}}" type="image/x-icon">
+    <!-- touch icon -->
+    <link rel="apple-touch-icon-precomposed" href="{{root}}{{setting.siteInfo.touchIcon}}">
+    <title>{{title}} - {{setting.siteInfo.pageTitle}}</title>
+</head>
+
+<body>
+    {{> component-page-loader }}
+    {{> component-header }}
+    {{> body }}
+    {{> component-footer }}
+    {{> component-totop }}
+    {{> component-scripts }}
+</body>
+
+</html>

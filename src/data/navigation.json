@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Home",
+    "slug": "home",
+    "link": "index.html"
+  },
+  {
+    "title": "Mining",
+    "slug": "mining",
+    "link": "mining.html"
+  },
+  {
+    "title": "Explorer",
+    "slug": "explorer",
+    "link": "https://explorer.rethereum.org/"
+  },
+  {
+    "title": "Blog",
+    "slug": "blog",
+    "link": "blog.html"
+  }
+]

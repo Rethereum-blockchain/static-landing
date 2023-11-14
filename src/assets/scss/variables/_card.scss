@@ -1,0 +1,61 @@
+$card-body-padding-horizontal:                  $global-gutter;
+$card-body-padding-vertical:                    $global-gutter;
+
+$card-body-padding-horizontal-l:                $global-medium-gutter;
+$card-body-padding-vertical-l:                  $global-medium-gutter;
+
+$card-header-padding-horizontal:                $global-gutter;
+$card-header-padding-vertical:                  round(($global-gutter * 0.5));
+
+$card-header-padding-horizontal-l:              $global-medium-gutter;
+$card-header-padding-vertical-l:                round(($global-medium-gutter * 0.5));
+
+$card-footer-padding-horizontal:                $global-gutter;
+$card-footer-padding-vertical:                  ($global-gutter * 0.5);
+
+$card-footer-padding-horizontal-l:              $global-medium-gutter;
+$card-footer-padding-vertical-l:                round(($global-medium-gutter * 0.5));
+
+$card-title-font-size:                          $global-large-font-size;
+$card-title-line-height:                        1.4;
+
+$card-badge-top:                                15px;
+$card-badge-right:                              15px;
+$card-badge-height:                             22px;
+$card-badge-padding-horizontal:                 10px;
+$card-badge-background:                         $global-primary-background;
+$card-badge-color:                              $global-inverse-color;
+$card-badge-font-size:                          $global-small-font-size;
+
+$card-hover-background:                         $global-muted-background;
+
+$card-default-background:                       #f2f3f5;
+$card-default-color:                            #666;
+$card-default-title-color:                      $global-emphasis-color;
+$card-default-hover-background:                 darken($card-default-background, 5%);
+
+$card-primary-background:                       $global-primary-background;
+$card-primary-color:                            $global-inverse-color;
+$card-primary-title-color:                      $card-primary-color;
+$card-primary-hover-background:                 darken($card-primary-background, 5%);
+$card-primary-color-mode:                       light;
+
+$card-secondary-background:                     #212224;
+$card-secondary-color:                          $global-inverse-color;
+$card-secondary-title-color:                    $card-secondary-color;
+$card-secondary-hover-background:               darken($card-secondary-background, 5%);
+$card-secondary-color-mode:                     light;
+
+$card-small-body-padding-horizontal:            $global-margin;
+$card-small-body-padding-vertical:              $global-margin;
+$card-small-header-padding-horizontal:          $global-margin;
+$card-small-header-padding-vertical:            round(($global-margin * 0.66667));
+$card-small-footer-padding-horizontal:          $global-margin;
+$card-small-footer-padding-vertical:            round(($global-margin * 0.66667));
+
+$card-large-body-padding-horizontal-l:          $global-large-gutter;
+$card-large-body-padding-vertical-l:            $global-large-gutter;
+$card-large-header-padding-horizontal-l:        $global-large-gutter;
+$card-large-header-padding-vertical-l:          round(($global-large-gutter * 0.5));
+$card-large-footer-padding-horizontal-l:        $global-large-gutter;
+$card-large-footer-padding-vertical-l:          round(($global-large-gutter * 0.5));

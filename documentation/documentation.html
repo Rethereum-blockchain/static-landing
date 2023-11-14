@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="zxx" dir="ltr">
+
+<head>
+    <!-- standard meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- site properties -->
+    <title>Liquid HTML Template Documentation - v2.0.2</title>
+    <!-- critical preload -->
+    <link rel="preload" href="js/main.min.js" as="script">
+    <link rel="preload" href="css/main.min.css" as="style">
+    <!-- icon preload -->
+    <link rel="preload" href="fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+    <!-- font preload -->
+    <link rel="preload" href="fonts/nunito-v16-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/nunito-v16-latin-300.woff2" as="font" type="font/woff2" crossorigin>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <!-- css -->
+    <link rel="stylesheet" href="css/main.min.css">
+</head>
+
+<body>
+    <header>
+        <!-- header content begin -->
+        <div class="uk-section uk-section-xsmall uk-section-muted">
+            <div class="uk-container">
+                <div class="uk-grid" data-uk-grid>
+                    <div class="uk-width-auto@m uk-flex uk-flex-middle">
+                        <div class="in-header-margin">
+                            <h1 class="uk-margin-remove-bottom">Liquid HTML Documentation <span class="uk-label uk-label-warning uk-border-rounded">v2.0.2</span></h1>
+                            <p class="uk-text-lead uk-text-muted uk-margin-small-top">Financial HTML template that suite for forex &amp; stock broker also invesment company.</p>
+                        </div>
+                    </div>
+                    <div class="uk-width-expand@m uk-inline">
+                        <div class="uk-position-top-right">
+                            <div>
+                                <ul class="uk-subnav uk-subnav-pill uk-text-small in-header-socials" data-uk-margin>
+                                    <li class="uk-text-uppercase social-ig"><a href="https://www.instagram.com/indonez_ig" target="blank">Instagram<i class="fab fa-instagram"></i></a></li>
+                                    <li class="uk-text-uppercase social-fb"><a href="https://www.facebook.com/indonez" target="blank">Facebook<i class="fab fa-facebook-square"></i></a></li>
+                                    <li class="uk-text-uppercase social-tw"><a href="https://twitter.com/indonez_tw" target="blank">Twitter<i class="fab fa-twitter"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="uk-position-bottom-right">
+                            <div>
+                                <div class="uk-card uk-border-pill in-logo">
+                                    <a href="https://1.envato.market/Indonez-portfolio" target="_blank"><img src="img/logo.svg" alt="logo" width="100" height="23"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- header content end -->
+    </header>
+    <main>
+        <!-- section content begin -->
+        <div class="uk-section uk-padding-remove-vertical">
+            <div class="uk-container">
+                <div class="uk-grid uk-grid-large" data-uk-grid>
+                    <div class="uk-width-auto@m in-left-content" data-uk-height-viewport>
+                        <div class="uk-margin-large-top uk-margin-medium-right">
+                            <ul class="uk-tab-left" data-uk-tab="connect: #component-tab-left; animation: uk-animation-fade">
+                                <li><a href="#">Welcome</a></li>
+                                <li><a href="#">Getting started</a></li>
+                                <li><a href="#">Blockit Builder</a></li>
+                                <li><a href="#">SCSS customization</a></li>
+                                <li><a href="#">JavaScript configuration</a></li>
+                                <li><a href="#">Sources &amp; credits</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="uk-width-expand@m">
+                        <div class="uk-margin-large-top uk-margin-medium-left">
+                            <div>
+                                <ul id="component-tab-left" class="uk-switcher">
+                                    <li>
+                                        <h2 class="uk-margin-remove">Welcome</h2>
+                                        <p class="uk-text-lead uk-margin-small-top">Thank you for purchasing our template.</p>
+                                        <p>We are happy that you are one of our customers and we assure you won't be disappointed. We do our best to produce top notch templates with great functionality, premium designs and readable code.</p>
+                                        <p>This documentation has been written to help you regarding each step of customization. Please go through the documentation carefully to understand how this template is made and how to edit this properly.</p>
+                                        <p>If you have any questions that are beyond the scope of this documentation, please feel free to email, via my user page contact form <a href="http://themeforest.net/user/indonez"><span class="uk-label uk-border-rounded">http://themeforest.net/user/indonez</span></a></p>
+                                        <h3 class="uk-margin-medium-top uk-margin-small-bottom">Package contents</h3>
+                                        <p class="uk-margin-remove-top">The zip file contains which is everything you need to get started.</p>
+                                        <ul class="uk-list uk-list-hyphen">
+                                            <li>
+                                                <p><span class="uk-text-primary"><i class="fas fa-folder uk-margin-small-right"></i>dist</span> &nbsp;&nbsp; ~ &nbsp;&nbsp;<span class="uk-text-muted">all template distribution files like HTML/CSS/JS/PHP</span></p>
+                                            </li>
+                                            <li>
+                                                <p><span class="uk-text-primary"><i class="fas fa-folder uk-margin-small-right"></i>documentation</span> &nbsp;&nbsp; ~ &nbsp;&nbsp;<span class="uk-text-muted">contains all documentation files regarding the template</span></p>
+                                            </li>
+                                            <li>
+                                                <p><span class="uk-text-primary"><i class="fas fa-folder uk-margin-small-right"></i>psd</span> &nbsp;&nbsp; ~ &nbsp;&nbsp;<span class="uk-text-muted">contains an editable psd file used in this template</span></p>
+                                            </li>
+                                            <li>
+                                                <p><span class="uk-text-primary"><i class="fas fa-folder uk-margin-small-right"></i>src</span> &nbsp;&nbsp; ~ &nbsp;&nbsp;<span class="uk-text-muted">all source files that are processed (compiled/minified) to dist folder</span></p>
+                                            </li>
+                                            <li>
+                                                <p><span class="uk-text-primary"><i class="fab fa-npm uk-margin-small-right"></i>.npmrc</span> &nbsp;&nbsp; ~ &nbsp;&nbsp;<span class="uk-text-muted">npm config file</span></p>
+                                            </li>
+                                            <li>
+                                                <p><span class="uk-text-primary"><i class="fas fa-file uk-margin-small-right"></i>blockit-config.json</span> &nbsp;&nbsp; ~ &nbsp;&nbsp;<span class="uk-text-muted">blockit builder config file</span></p>
+                                            </li>
+                                            <li>
+                                                <p><span class="uk-text-primary"><i class="fab fa-node-js uk-margin-small-right"></i>package.json</span> &nbsp;&nbsp; ~ &nbsp;&nbsp;<span class="uk-text-muted">includes the list of dependencies to install from npm</span></p>
+                                            </li>
+                                            <li>
+                                                <p><span class="uk-text-primary"><i class="fab fa-node-js uk-margin-small-right"></i>package-lock.json</span> &nbsp;&nbsp; ~ &nbsp;&nbsp;<span class="uk-text-muted">this locks any installed dependencies to a specific version number</span></p>
+                                            </li>
+                                        </ul>
+                                        <h3 class="uk-margin-medium-top uk-margin-bottom">Browser support</h3>
+                                        <div class="uk-child-width-expand@s uk-text-center uk-grid-divider uk-margin-small-bottom" data-uk-grid>
+                                            <div>
+                                                <div class="uk-flex uk-flex-center uk-flex-middle">
+                                                    <img src="img/chrome.svg" width="50" alt="Chrome">
+                                                </div>
+                                                <span class="uk-label uk-label-success uk-border-rounded">Latest</span>
+                                            </div>
+                                            <div>
+                                                <div class="uk-flex uk-flex-center uk-flex-middle">
+                                                    <img src="img/firefox.svg" width="50" alt="Firefox">
+                                                </div>
+                                                <span class="uk-label uk-label-success uk-border-rounded">Latest</span>
+                                            </div>
+                                            <div>
+                                                <div class="uk-flex uk-flex-center uk-flex-middle">
+                                                    <img src="img/edge.svg" width="50" alt="Edge">
+                                                </div>
+                                                <span class="uk-label uk-label-success uk-border-rounded">Latest</span>
+                                            </div>
+                                            <div>
+                                                <div class="uk-flex uk-flex-center uk-flex-middle">
+                                                    <img src="img/safari.svg" width="50" alt="Safari">
+                                                </div>
+                                                <span class="uk-label uk-label-success uk-border-rounded">Latest</span>
+                                            </div>
+                                            <div>
+                                                <div class="uk-flex uk-flex-center uk-flex-middle">
+                                                    <img src="img/opera.svg" width="50" alt="Opera">
+                                                </div>
+                                                <span class="uk-label uk-label-success uk-border-rounded">Latest</span>
+                                            </div>
+                                        </div>
+                                        <h3 class="uk-margin-medium-top uk-margin-small-bottom">Changelog</h3>
+                                        <div class="uk-grid-medium" data-uk-grid>
+                                            <div class="uk-width-auto">
+                                                <span class="uk-label uk-label-warning uk-border-rounded">v2.0.2</span>
+                                            </div>
+                                            <div class="uk-width-expand">
+                                                <table class="uk-table uk-table-striped">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>Update UIkit to 3.16.17 and Fontawesome to 6.4.0</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Improve page-loader code in utilities.js</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Fix UIkit sass main compile method</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Increase google web vitals score</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                        <div class="uk-grid-medium" data-uk-grid>
+                                            <div class="uk-width-auto">
+                                                <span class="uk-label uk-label-warning uk-border-rounded">v2.0.1</span>
+                                            </div>
+                                            <div class="uk-width-expand">
+                                                <table class="uk-table uk-table-striped">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>Small adjusment in scss variables (colors and notification)</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                        <div class="uk-grid-medium" data-uk-grid>
+                                            <div class="uk-width-auto">
+                                                <span class="uk-label uk-label-warning uk-border-rounded">v2.0.0</span>
+                                            </div>
+                                            <div class="uk-width-expand">
+                                                <table class="uk-table uk-table-striped">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>Integrates Blockit Builder for easy editing</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Update UIkit to ver 3.16.6</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Improves utilities.js to inline with new update</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Refactors sass structure files following changes to UIkit</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                        <div class="uk-grid-medium uk-margin-large-bottom" data-uk-grid>
+                                            <div class="uk-width-auto">
+                                                <span class="uk-label uk-label-warning uk-border-rounded">v1.0.0</span>
+                                            </div>
+                                            <div class="uk-width-expand">
+                                                <table class="uk-table uk-table-striped">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>Initial files for ver 1.0.0</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <h2 class="in-hastag-heading">Getting started</h2>
+                                        <p class="uk-margin-small-bottom">Please follow below steps to install and setup all prerequisites</p>
+                                        <div class="uk-alert-primary uk-border-rounded uk-margin-remove-top uk-flex uk-flex-middle uk-flex-left" data-uk-alert>
+                                            <div class="uk-flex uk-flex-middle">
+                                                <i class="fas fa-info-circle uk-margin-small-right"></i>
+                                            </div>
+                                            <div>
+                                                <p class="uk-text-small uk-margin-remove-bottom">This step aims for users who want to speed up development process and is optional. You can still use plain HTML/CSS/JS to customize. Files you need are located in dist folder</p>
+                                            </div>
+                                        </div>
+                                        <h3 class="uk-margin-medium-top uk-margin-small-bottom">Install node.js</h3>
+                                        <p class="uk-margin-remove-top">If node is not installed on your machine, you can go to the official nodejs.org website, and choose the version depending on your operating system</p>
+                                        <a class="uk-button uk-button-primary uk-border-rounded" href="https://nodejs.org/en/download/"><i class="fab fa-node-js uk-margin-small-right"></i> Download node.js</a>
+                                        <h3 class="uk-margin-medium-top uk-margin-small-bottom">Dependencies installation</h3>
+                                        <p class="uk-margin-remove-top">To setup the template and start installing project dependencies, open command line/terminal in the root template folder and run</p>
+                                        <pre><code class="language-shell line-numbers uk-margin-large-bottom"># Install all the dependencies needed
+npm install
+</code></pre>
+                                        <h3 class="uk-margin-medium-top uk-margin-small-bottom">Npm commands</h3>
+                                        <p class="uk-margin-remove-top">There are several commands that you can use in the development process using this template</p>
+                                        <pre><code class="language-shell line-numbers uk-margin-large-bottom"># Command to compile source files from src to dist
+npm run build
+
+# Command to run Blockit Builder
+npm run blockit
+</code></pre>
+                                    </li>
+                                    <li>
+                                        <h2 class="in-hastag-heading">Blockit Builder</h2>
+                                        <p>Blockit Builder is an exclusive tool from Indonez that makes it easy for you to customize HTML templates quickly and easily. You can run this tool with the command below in your terminal.</p>
+                                        </code></pre>
+                                        <pre><code class="language-shell line-numbers uk-margin-bottom">npm run blockit
+</code></pre>
+                                        <p>Some basic menus in Blockit and their use</p>
+                                        <div class="uk-grid-medium uk-grid-match uk-child-width-1-2@m" data-uk-grid>
+                                            <div>
+                                                <div class="uk-card uk-card-default uk-card-body uk-border-rounded">
+                                                    <div class="uk-flex uk-flex-middle">
+                                                        <i class="fas fa-clone fa-lg uk-margin-small-right uk-text-primary"></i>
+                                                        <h4 class="uk-margin-remove uk-text-primary">Pages</h4>
+                                                    </div>
+                                                    <p class="uk-text-small uk-margin-top uk-margin-remove-bottom">Add an HTML page dynamically and easily. just named, drag and drop every sections do you like.</p>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="uk-card uk-card-default uk-card-body uk-border-rounded">
+                                                    <div class="uk-flex uk-flex-middle">
+                                                        <i class="fas fa-compass fa-lg uk-margin-small-right uk-text-primary"></i>
+                                                        <h4 class="uk-margin-remove uk-text-primary">Navigation</h4>
+                                                    </div>
+                                                    <p class="uk-text-small uk-margin-top uk-margin-remove-bottom">Create your website navigation, choose the name you like and then direct the link to the page.</p>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="uk-card uk-card-default uk-card-body uk-border-rounded">
+                                                    <div class="uk-flex uk-flex-middle">
+                                                        <i class="fas fa-thumbtack fa-lg uk-margin-small-right uk-text-primary"></i>
+                                                        <h4 class="uk-margin-remove uk-text-primary">Posts</h4>
+                                                    </div>
+                                                    <p class="uk-text-small uk-margin-top uk-margin-remove-bottom">Starting to become a blog writer is as easy as typing whatever you like, let us create the code for you.</p>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="uk-card uk-card-default uk-card-body uk-border-rounded">
+                                                    <div class="uk-flex uk-flex-middle">
+                                                        <i class="fas fa-plug fa-lg uk-margin-small-right uk-text-primary"></i>
+                                                        <h4 class="uk-margin-remove uk-text-primary">Components</h4>
+                                                    </div>
+                                                    <p class="uk-text-small uk-margin-top uk-margin-remove-bottom">Set and customize the components used to match and complement the needs of the site you want.</p>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="uk-card uk-card-default uk-card-body uk-border-rounded">
+                                                    <div class="uk-flex uk-flex-middle">
+                                                        <i class="fas fa-cog fa-lg uk-margin-small-right uk-text-primary"></i>
+                                                        <h4 class="uk-margin-remove uk-text-primary">Settings</h4>
+                                                    </div>
+                                                    <p class="uk-text-small uk-margin-top uk-margin-remove-bottom">Find more settings here, you can personalize the website according to your wishes easily &amp; quickly.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <h3 class="uk-margin-medium-top uk-margin-small-bottom">Change contact form email target</h3>
+                                        <p class="uk-margin-remove-top">To change the target email that you use on the contact form, please go to <span class="uk-text-primary">components > contact</span> in Blockit Builder, then replace the existing email with your target email</p>
+                                        <h3 class="uk-margin-medium-top uk-margin-small-bottom">Change google map location</h3>
+                                        <p class="uk-margin-remove-top">To change the location of the google map, make sure the location is already registered on the google map, then follow these steps</p>
+                                        <ul class="uk-list uk-list-hyphen uk-margin-large-bottom">
+                                            <li>
+                                                <p>Please go to <span class="uk-text-primary">components > contact</span> in Blockit Builder</span></p>
+                                            </li>
+                                            <li>
+                                                <p>Open Google Maps and search for the address/company you want to show</p>
+                                            </li>
+                                            <li>
+                                                <p>Once the location has been marked by the search, go into the "Share" option found directly below the locations image.</p>
+                                            </li>
+                                            <li>
+                                                <p>Inside share you will find two tabs, open the "embed a map" tab. This display should now show you a copy of what your embedded map will look like on your website.</p>
+                                                <img class="uk-box-shadow-small uk-margin-remove" src="img/gmap-figure.jpg" alt="map" width="560" height="574">
+                                            </li>
+                                            <li>
+                                                <p>click the ‘copy html’ button and paste it in "Map location" input form, then save components</p>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <h2 class="in-hastag-heading">SCSS customization</h2>
+                                        <div class="uk-alert-primary uk-border-rounded uk-margin-remove-top uk-flex uk-flex-middle uk-flex-left" data-uk-alert>
+                                            <div class="uk-flex uk-flex-middle">
+                                                <i class="fas fa-info-circle uk-margin-small-right"></i>
+                                            </div>
+                                            <div>
+                                                <p class="uk-text-small uk-margin-remove-bottom">To make changes to this step, it is recommended that you have sufficient knowledge of SCSS or CSS</p>
+                                            </div>
+                                        </div>
+                                        <p>This template uses UIkit 3 as a front-end framework, so you can implement everything in the <a href="https://getuikit.com/docs/introduction" target="blank">UIkit 3 documentation</a> in this template.</p>
+                                        <p>To do advanced customization using SCSS, you can go to the <span class="uk-text-primary">src > assets > scss</span> folder. The following is an explanation of each scss folder configured by Indonez for easy and fast development</p>
+                                        <ul class="uk-list uk-list-hyphen">
+                                            <li>
+                                                <p><span class="uk-text-primary"><i class="fas fa-folder uk-margin-small-right"></i>blockit</span> &nbsp;&nbsp; ~ &nbsp;&nbsp;<span class="uk-text-muted">contains blockit sections style components</span></p>
+                                            </li>
+                                            <li>
+                                                <p><span class="uk-text-primary"><i class="fas fa-folder uk-margin-small-right"></i>mixins</span> &nbsp;&nbsp; ~ &nbsp;&nbsp;<span class="uk-text-muted">contains custom UIkit 3 mixins for this theme</span></p>
+                                            </li>
+                                            <li>
+                                                <p><span class="uk-text-primary"><i class="fas fa-folder uk-margin-small-right"></i>theme</span> &nbsp;&nbsp; ~ &nbsp;&nbsp;<span class="uk-text-muted">various style includes color,default variables and custom style used in this theme</span></p>
+                                            </li>
+                                            <li>
+                                                <p><span class="uk-text-primary"><i class="fas fa-folder uk-margin-small-right"></i>utilities</span> &nbsp;&nbsp; ~ &nbsp;&nbsp;<span class="uk-text-muted">contains utilities style used in this theme</span></p>
+                                            </li>
+                                            <li>
+                                                <p><span class="uk-text-primary"><i class="fas fa-folder uk-margin-small-right"></i>variables</span> &nbsp;&nbsp; ~ &nbsp;&nbsp;<span class="uk-text-muted">contains custom UIkit 3 variable for this theme</span></p>
+                                            </li>
+                                            <li>
+                                                <p><span class="uk-text-primary"><i class="fas fa-folder uk-margin-small-right"></i>vendors</span> &nbsp;&nbsp; ~ &nbsp;&nbsp;<span class="uk-text-muted">vendor style like fontawesome</span></p>
+                                            </li>
+                                            <li>
+                                                <p><span class="uk-text-primary"><i class="fab fa-sass uk-margin-small-right"></i>main.scss</span> &nbsp;&nbsp; ~ &nbsp;&nbsp;<span class="uk-text-muted">the entry point for the style.css file, everything is organized here</span></p>
+                                            </li>
+                                            <li>
+                                                <p><span class="uk-text-primary"><i class="fab fa-sass uk-margin-small-right"></i>uikit.scss</span> &nbsp;&nbsp; ~ &nbsp;&nbsp;<span class="uk-text-muted">UIkit 3 library entry point that used in this theme</span></p>
+                                            </li>
+                                        </ul>
+                                        <p>At the main.scss file entry point you can see what scss files are needed in making this template, you can explore each file referred to by this file.</p>
+                                        <pre><code class="language-css line-numbers uk-margin-large-bottom">// Theme fonts
+@import "theme/fonts";
+
+// Theme colors
+@import "theme/colors";
+
+// Theme global
+@import "theme/global";
+
+// UIkit
+@import "uikit.scss";
+
+// Blockit
+@import "blockit/blockit";
+
+// Vendors
+@import "vendors/vendors";
+
+// Utilities
+@import "utilities/utilities";
+
+// Theme custom
+@import 'theme/custom';</code></pre>
+                                    </li>
+                                    <li>
+                                        <h2 class="in-hastag-heading">Javascript configuration</h2>
+                                        <p class="uk-margin-remove-top">If you want edit some configuration for homepage slideshow you can open <span class="uk-label uk-border-rounded">config-theme.js</span> in <span class="uk-text-primary">src/assets/js</span> and there also available some component options that you can change.</p>
+                                        <pre class="uk-margin-large-bottom"><code class="language-js line-numbers">//----------- 1. Slideshow -----------
+theme_slideshow: function() {
+    UIkit.slideshow('.in-slideshow', {
+        autoplay: true,
+        autoplayInterval: 8000,
+        pauseOnHover: false,
+        animation: 'slide',
+        minHeight: 480,
+        maxHeight: 700
+    });
+},
+//---------- 2. Mobile nav button -----------
+theme_mobilenav: function() {
+    new MobileNavbar({
+        addonButtons: true,                 // options to use addon buttons, set it "false" if you won't use addon buttons
+        buttons: [
+            {
+                name: 'Log in',             // custom button name
+                url: 'signin.html',         // custom button url
+                type: 'primary',            // button type (default, primary, secondary, danger, text)
+                icon: 'sign-in-alt'         // button icon, you can use all icons from here : https://fontawesome.com/icons?d=gallery&s=solid&m=free
+            },
+        ]
+    }).init();
+},
+//---------- 3. Tradingview widget -----------
+theme_tradingview: function() {
+    if(window.hasOwnProperty('TradingviewWidget')) {
+        new TradingviewWidget({
+            element: "#tradingview-widget",
+            height: 318,
+            type: "market-overview",
+            theme: "light",
+            symbol: [                       // array of instruments symbol based on Tradingview
+                {s: "FX:EURUSD"},
+                {s: "FX:GBPUSD"},
+                {s: "FX:USDJPY"},
+                {s: "FX:USDCHF"},
+                {s: "FX:USDCAD"}
+            ]
+        }).init()
+    }
+},</code></pre>
+                                    </li>
+                                    <li>
+                                        <h2 class="in-hastag-heading">Sources &amp; credits</h2>
+                                        <h3>Fonts</h3>
+                                        <ul class="uk-list uk-list-divider in-list-dashed uk-text-small">
+                                            <li>
+                                                <span class="uk-label uk-border-rounded">Inter</span> - <span class="uk-text-meta"><a class="uk-link-text" href="https://fonts.google.com/specimen/Inter">https://fonts.google.com/specimen/Inter</a></span>
+                                            </li>
+                                        </ul>
+                                        <h4 class="uk-margin-medium-top">CSS framework &amp; Icons</h4>
+                                        <ul class="uk-list uk-list-divider in-list-dashed uk-text-small">
+                                            <li>
+                                                <span class="uk-label uk-border-rounded">UIkit 3</span> - <span class="uk-text-meta"><a class="uk-link-text" href="https://getuikit.com/">https://getuikit.com</a></span>
+                                            </li>
+                                            <li>
+                                                <span class="uk-label uk-border-rounded">Font Awesome</span> - <span class="uk-text-meta"><a class="uk-link-text" href="https://fontawesome.com/icons">https://fontawesome.com/icons</a></span>
+                                            </li>
+                                            <li>
+                                                <span class="uk-label uk-border-rounded">Basic Gradient Circular</span> - <span class="uk-text-meta"><a class="uk-link-text" href="https://www.flaticon.com/authors/basic-gradient/circular">https://www.flaticon.com/authors/basic-gradient/circular</a></span>
+                                            </li>
+                                        </ul>
+                                        <h3 class="uk-margin-medium-top">Image assets</h3>
+                                        <ul class="uk-list uk-list-divider in-list-dashed uk-text-small">
+                                            <li>
+                                                <span class="uk-label uk-border-rounded">Manypixels illustrations</span> - <span class="uk-text-meta"><a class="uk-link-text" href="https://www.manypixels.co/gallery">https://www.manypixels.co/gallery</a></span>
+                                            </li>
+                                            <li>
+                                                <span class="uk-label uk-border-rounded">Brainstorming over paper</span> - <span class="uk-text-meta"><a class="uk-link-text" href="https://unsplash.com/photos/5fNmWej4tAA">https://unsplash.com/photos/5fNmWej4tAA</a></span>
+                                            </li>
+                                            <li>
+                                                <span class="uk-label uk-border-rounded">World map business infographic</span> - <span class="uk-text-meta"><a class="uk-link-text" href="https://www.freepik.com/free-vector/world-map-business-infographic_5758202.htm">https://www.freepik.com/free-vector/...</a></span>
+                                            </li>
+                                            <li>
+                                                <span class="uk-label uk-border-rounded">Worldmap background design</span> - <span class="uk-text-meta"><a class="uk-link-text" href="https://www.freepik.com/free-vector/worldmap-background-design_1019996.htm">https://www.freepik.com/free-vector/...</a></span>
+                                            </li>
+                                            <li>
+                                                <span class="uk-label uk-border-rounded">Shiny night city</span> - <span class="uk-text-meta"><a class="uk-link-text" href="https://www.freepik.com/free-photo/shiny-night-city_888920.htm">https://www.freepik.com/free-photo/...</a></span>
+                                            </li>
+                                            <li>
+                                                <span class="uk-label uk-border-rounded">Everyone is smiling and listens</span> - <span class="uk-text-meta"><a class="uk-link-text" href="https://www.freepik.com/free-photo/everyone-is-smiling-listens-group-people-business-conference-modern-classroom-daytime_9694503.htm">https://www.freepik.com/free-photo/...</a></span>
+                                            </li>
+                                            <li>
+                                                <span class="uk-label uk-border-rounded">Business stock finance market</span> - <span class="uk-text-meta"><a class="uk-link-text" href="https://pixabay.com/photos/business-stock-finance-market-1730089/">https://pixabay.com/photos/...</a></span>
+                                            </li>
+                                            <li>
+                                                <span class="uk-label uk-border-rounded">Tie necktie adjust adjusting man</span> - <span class="uk-text-meta"><a class="uk-link-text" href="https://pixabay.com/photos/tie-necktie-adjust-adjusting-man-690084/">https://pixabay.com/photos/...</a></span>
+                                            </li>
+                                            <li>
+                                                <span class="uk-label uk-border-rounded">The conference lecture lecture hall</span> - <span class="uk-text-meta"><a class="uk-link-text" href="https://pixabay.com/photos/the-conference-lecture-lecture-hall-3248255/">https://pixabay.com/photos/...</a></span>
+                                            </li>
+                                            <li>
+                                                <span class="uk-label uk-border-rounded">Office business colleagues meeting</span> - <span class="uk-text-meta"><a class="uk-link-text" href="https://pixabay.com/photos/office-business-colleagues-meeting-1209640/">https://pixabay.com/photos/...</a></span>
+                                            </li>
+                                            <li>
+                                                <span class="uk-label uk-border-rounded">Chart trading courses forex</span> - <span class="uk-text-meta"><a class="uk-link-text" href="https://pixabay.com/photos/chart-trading-courses-forex-1905225/">https://pixabay.com/photos/...</a></span>
+                                            </li>
+                                        </ul>
+                                        <h3 class="uk-margin-medium-top">Mockup assets</h3>
+                                        <ul class="uk-list uk-list-divider in-list-dashed uk-text-small uk-margin-large-bottom">
+                                            <li>
+                                                <span class="uk-label uk-border-rounded">Mackbook Pro Mockup</span> - <span class="uk-text-meta"><a class="uk-link-text" href="https://unblast.com/4-free-macbook-pro-mockups-psd/https://unblast.com/4-free-macbook-pro-mockups-psd/">https://unblast.com/4-free-macbook-pro-mockups-psd/</a></span>
+                                            </li>
+                                            <li>
+                                                <span class="uk-label uk-border-rounded">Responsive devices Mockup</span> - <span class="uk-text-meta"><a class="uk-link-text" href="https://unblast.com/free-responsive-screen-device-mockup-psd/">https://unblast.com/free-responsive-screen-device-mockup-psd/</a></span>
+                                            </li>
+                                            <li>
+                                                <span class="uk-label uk-border-rounded">iPhone 11 Pro Mockup</span> - <span class="uk-text-meta"><a class="uk-link-text" href="https://unblast.com/free-front-back-iphone-11-pro-mockup-psd/">https://unblast.com/free-front-back-iphone-11-pro-mockup-psd/</a></span>
+                                            </li>
+                                            <li>
+                                                <span class="uk-label uk-border-rounded">Galaxy S20 Ultra Mockup</span> - <span class="uk-text-meta"><a class="uk-link-text" href="https://unblast.com/free-top-view-samsung-galaxy-s20-ultra-mockup-psd/">https://unblast.com/free-top-view-samsung-galaxy-s20-ultra-mockup-psd/</a></span>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- section content end -->
+        <!-- totop begin -->
+        <div class="uk-visible@m">
+            <a href="#" class="in-totop fas fa-chevron-up" data-uk-scroll></a>
+        </div>
+        <!-- totop end -->
+    </main>
+    <!-- javascript -->
+    <script src="js/main.min.js"></script>
+</body>
+
+</html>
