@@ -44,12 +44,30 @@
                 </div>
                 <div class="uk-navbar-right">
                     <div class="uk-navbar-item uk-visible@m in-optional-nav">
-                        <a href="{{#if component.header.signup.external}}{{component.header.signup.url}}{{else}}{{root}}{{component.header.signup.url}}{{/if}}" class="uk-button uk-button-primary uk-border-rounded">{{component.header.signup.title}}</a>
+                        <a onclick="addNetwork()" href="{{#if component.header.signup.external}}{{component.header.signup.url}}{{else}}{{root}}{{component.header.signup.url}}{{/if}}" class="uk-button uk-button-primary uk-border-rounded">{{component.header.signup.title}}</a>
                     </div>
                 </div>
             </div>
         </nav>
     </div>  
+    <script>
+		function addNetwork(){
+            window.ethereum.request({
+                method: "wallet_addEthereumChain",
+                params: [{
+                    chainId: "0x97EC5",
+                    rpcUrls: ["https://rpc.rethereum.org/"],
+                    chainName: "Rethereum Mainnet",
+                    nativeCurrency: {
+                        name: "Rethereum",
+                        symbol: "RTH",
+                        decimals: 18
+                    },
+                    blockExplorerUrls: ["https://explorer.rethereum.org/"]
+                }]
+            });
+        }
+    </script>
 </header>
 <!-- header end -->
 {{#if breadcrumb}}
