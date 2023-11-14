@@ -1,0 +1,14 @@
+{
+    "footerHook": {
+        "useLogo": false,
+        "logoIndex": 0,
+        "showClass": "uk-display-block",
+        "hideClass": "uk-hidden",
+        "logoClass": "footer-logo",
+        "copyrightClass": "copyright-text"
+    },
+    "jsVendors": [
+        "./node_modules/share-buttons/dist/share-buttons.js",
+        "./node_modules/uikit/dist/js/uikit.min.js"
+    ]
+}

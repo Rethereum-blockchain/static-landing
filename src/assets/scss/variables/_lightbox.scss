@@ -1,0 +1,24 @@
+$lightbox-z-index:                               $global-z-index + 10;
+$lightbox-background:                            rgba(24, 24, 24, 0.75);
+
+$lightbox-focus-outline:                         $global-inverse-color;
+
+$lightbox-item-color:                            $global-inverse-color;
+$lightbox-item-max-width:                        100vw;
+$lightbox-item-max-height:                       100vh;
+
+$lightbox-toolbar-padding-vertical:              10px;
+$lightbox-toolbar-padding-horizontal:            10px;
+$lightbox-toolbar-background:                    transparent;
+$lightbox-toolbar-color:                         $global-inverse-color;
+
+$lightbox-toolbar-icon-padding:                  5px;
+$lightbox-toolbar-icon-color:                    $global-inverse-color;
+
+$lightbox-toolbar-icon-hover-color:              #fff;
+
+$lightbox-button-size:                           50px;
+$lightbox-button-background:                     $lightbox-toolbar-background;
+$lightbox-button-color:                          $global-inverse-color;
+
+$lightbox-button-hover-color:                    #fff;

@@ -1,0 +1,29 @@
+.in-client-logo-6 {
+    .uk-tile {
+        border-right: $global-border-width solid $global-border;
+        padding: 10px 35px;
+        &:last-child {
+            border-right: 0;
+        }
+        img {
+            opacity: 0.8;
+            transition: 0.3s ease-in-out;
+            &:hover {
+                opacity: 1;
+            }
+        }
+    }
+}
+@media (max-width: 960px) {
+    .in-client-logo-6 {
+        // padding: 30px 35px;
+        .uk-tile {
+            padding: 28px 0;
+            border-right: 0;
+            border-bottom: $global-border-width solid $global-border;
+            &:last-child {
+                border-bottom: 0;
+            }
+        }
+    }
+}

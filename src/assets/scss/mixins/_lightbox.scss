@@ -1,0 +1,9 @@
+@mixin hook-lightbox(){
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+@mixin hook-lightbox-item(){
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}

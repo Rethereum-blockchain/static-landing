@@ -1,0 +1,208 @@
+.in-blog-1 {
+    .in-stretch {
+        width: 100%;
+    }
+    .uk-card-default {
+        border: $global-border-width solid $global-border;
+        background-color: $global-inverse-color;
+    }
+    .uk-card-body {
+        a {
+            color: inherit;
+            text-decoration: none;
+            &.uk-button-text {
+                color: $global-primary-background;
+                &:hover {
+                    color: darken($global-primary-background, 10%);
+                }
+            }
+        }
+    }
+    .uk-card-media-top {
+        img {
+            border-top-left-radius: $border-rounded-border-radius;
+            border-top-right-radius: $border-rounded-border-radius;
+        }
+    }
+    .uk-card-footer {
+        border-top: $global-border-width solid $global-border;
+        padding-top: 17px;
+        .uk-button-text {
+            margin-top: 0px;
+        }
+    }
+}
+
+@media (max-width: 960px) {
+    .in-blog-1 {
+        .in-article-tags {
+            width: 100%;
+        }
+    }
+}
+
+@media (min-width: 640px) and (max-width: 960px) {
+    .in-blog-1 {
+        .in-article-tags {
+            width: initial;
+        }
+    }
+}
+
+// single page
+.in-article {
+    .uk-card-body,
+    .uk-card-footer {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    .in-figure-available {
+        margin-bottom: -158px;
+    }
+    .in-article-tags {
+        margin-top: 2px;
+        font-size: $global-small-font-size;
+        i {
+            position: relative;
+            top: 1px;
+        }
+    }
+    .in-article-share {
+        margin-top: -2px;
+        a.uk-label {
+            width: 16px;
+            padding: 2px 11px 0px 11px;
+            border-radius: 50px;
+            color: $global-inverse-color;
+            text-align: center;
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+    .in-article-image,
+    .in-article-table {
+        margin: 40px 0;
+    }
+    .in-article-blockquote {
+        width: 86%;
+        margin: 40px auto;
+    }
+    .in-article-youtube {
+        position: relative;
+        margin: 40px 0;
+        padding-bottom: 56.25%; /* 16:9 */
+        height: 0;
+    }
+    .in-article-youtube iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: 0px;
+    }
+    blockquote {
+        width: 86%;
+        font-size: 1.125rem;
+        margin: 42px auto;
+        p {
+            box-shadow: inset 3px 0px 0px 0px $global-border;
+            padding: 8px 0 8px 26px;
+            &:first-of-type::before {
+                content: "";
+            }
+        }
+        footer {            
+            cite::before {
+                content: "—";
+                margin-right: 10px;
+            }
+        }
+    }
+}
+
+@media (max-width: 960px) {
+    .in-article {
+        .uk-card-body,
+        .uk-card-footer {
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+        .in-figure-available {
+            margin-bottom: 0;
+            img {
+                &.uk-width-1-1 {
+                    border-bottom-left-radius: 0;
+                    border-bottom-right-radius: 0;
+                    margin-bottom: -3px;
+                }
+            }
+        }
+        .in-flat-rounded-top {
+            border-top-left-radius: 0;
+            border-top-right-radius: 0;
+        }
+        .in-article-blockquote {
+            width: 100%;
+            padding-left: 0;
+        }
+        article.uk-card {
+            z-index: -1;
+        }
+        blockquote {
+            margin: 42px 0 42px 0px;
+            padding-left: 30px;
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .in-article {        
+        .in-article-share {
+            margin: 10px 0 5px 0;
+            float: left;
+        }
+    }
+}
+
+// blog find
+.blog-find-heading {
+    i {
+        position: relative;
+        top: 3px;
+    }
+}
+
+// widget blog
+.widget-tag {
+    .uk-label {
+        font-size: 14px;
+        background-color: $global-inverse-color;
+        border: 0;
+        color: #717070;
+        margin: 3px;
+        padding: 4px 13px;
+        transition: all ease .5s;
+    }
+    a:hover .uk-label {
+        transition: all ease .5s;
+        color: $global-inverse-color;
+        background-color: $global-primary-background;
+    }
+}
+
+.widget-latest li i {
+    vertical-align: 0 !important;
+}
+
+.widget-categories li a,
+.widget-latest li a {
+    color: inherit;
+}
+
+.widget-categories li a:hover,
+.widget-latest li a:hover {
+    color: $global-primary-background;
+    text-decoration: none;
+}

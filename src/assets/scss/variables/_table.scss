@@ -1,0 +1,30 @@
+$table-margin-vertical:                          $global-margin;
+
+$table-cell-padding-vertical:                    16px;
+$table-cell-padding-horizontal:                  12px;
+
+$table-header-cell-font-size:                    0.813rem;
+$table-header-cell-font-weight:                  700;
+$table-header-cell-color:                        #666;
+
+$table-footer-font-size:                         $global-small-font-size;
+
+$table-caption-font-size:                        $global-small-font-size;
+$table-caption-color:                            $global-muted-color;
+
+$table-row-active-background:                    #ffd;
+
+$table-divider-border-width:                     $global-border-width;
+$table-divider-border:                           $global-border;
+
+$table-striped-row-background:                   #f8f8f8;
+
+$table-hover-row-background:                     $table-row-active-background;
+
+$table-small-cell-padding-vertical:              10px;
+$table-small-cell-padding-horizontal:            12px;
+
+$table-large-cell-padding-vertical:              22px;
+$table-large-cell-padding-horizontal:            12px;
+
+$table-expand-min-width:                         150px;

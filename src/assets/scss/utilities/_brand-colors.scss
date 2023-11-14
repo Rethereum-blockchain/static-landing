@@ -1,0 +1,76 @@
+.color-google {
+    background: #4687f2;
+    &:hover {
+        background: lighten(#4687f2, 8%);
+    }
+}
+
+.color-facebook {
+    background: #3b5998;
+    &:hover {
+        background: lighten(#3b5998, 8%);
+    }
+}
+
+.color-twitter {
+    background: #00acee;
+    &:hover {
+        background: lighten(#00acee, 8%);
+    }
+}
+
+.color-youtube {
+    background: #c4302b;
+    &:hover {
+        background: lighten(#c4302b, 8%);
+    }
+}
+
+.color-instagram {
+    background: #DD2A7B;
+    &:hover {
+        background: lighten(#DD2A7B, 8%);
+    }
+}
+
+.color-telegram {
+    background: #0088CC;
+    &:hover {
+        background: lighten(#0088CC, 8%);
+    }
+}
+
+.color-whatsapp {
+    background: #128c7e;
+    &:hover {
+        background: lighten(#128c7e, 8%);
+    }
+}
+
+.color-linkedin {
+    background: #0077b5;
+    &:hover {
+        background: lighten(#0077b5, 8%);
+    }
+}
+
+.color-behance {
+    background: #1769ff;
+    &:hover {
+        background: lighten(#1769ff, 8%);
+    }
+}
+
+.color-pinterest {
+    background: #BD081C;
+    &:hover {
+        background: lighten(#BD081C, 8%);
+    }
+}
+
+.color-email {
+    background: #445761;
+    &:hover {
+        background: lighten(#445761, 8%);
+    }
+}

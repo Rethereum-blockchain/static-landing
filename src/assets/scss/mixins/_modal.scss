@@ -1,0 +1,27 @@
+@mixin hook-modal-dialog(){
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+@mixin hook-modal-close-full(){
+    color: $global-inverse-color;
+    padding: 2px 18px;
+    background-color: transparent;
+    box-shadow: inset 0px 0px 0px 2px $global-border;
+    border-radius: $border-rounded-border-radius;
+    top: 23px;
+    &.uk-button {
+        font-size: 17px;
+    }
+}
+@mixin hook-modal-misc(){
+    @media (max-width: 960px) {
+        .uk-modal-close-full {
+            right: 3.9%;
+        }
+    }
+    @media (min-width: 640px) and (max-width: 960px) {
+        .uk-modal-close-full {
+            right: 3.7%;
+        }
+    }
+}

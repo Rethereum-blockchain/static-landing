@@ -1,0 +1,61 @@
+// typography
+$global-font-family:                             'Inter', sans-serif;
+$global-font-size:                               17px;
+$global-line-height:                             1.588;
+
+$global-2xlarge-font-size:                       2.625rem;
+$global-xlarge-font-size:                        2rem;
+$global-large-font-size:                         1.5rem;
+$global-medium-font-size:                        1.25rem;
+$global-small-font-size:                         0.764rem;
+
+// colors
+$global-color:                                   $body;
+$global-emphasis-color:                          $dark;
+$global-muted-color:                             #999999;
+
+$global-link-color:                              $link;
+$global-link-hover-color:                        darken($link, 15%);
+
+$global-inverse-color:                           #fff;
+
+// backgrounds
+$global-background:                              $background;
+
+$global-muted-background:                        $light;
+$global-primary-background:                      $primary;
+$global-secondary-background:                    $secondary;
+
+$global-success-background:                      $success;
+$global-warning-background:                      $warning;
+$global-danger-background:                       $danger;
+
+// borders
+$global-border-width:                            1px;
+$global-border:                                  #e5e5e5;
+
+// box-Shadows
+$global-small-box-shadow:                        0 2px 8px rgba(0,0,0,0.08);
+$global-medium-box-shadow:                       0 5px 15px rgba(0,0,0,0.08);
+$global-large-box-shadow:                        0 14px 25px rgba(0,0,0,0.16);
+$global-xlarge-box-shadow:                       0 28px 50px rgba(0,0,0,0.16);
+
+// spacings
+$global-margin:                                  20px;
+$global-small-margin:                            10px;
+$global-medium-margin:                           40px;
+$global-large-margin:                            70px;
+$global-xlarge-margin:                           120px;
+
+$global-gutter:                                  30px;
+$global-small-gutter:                            15px;
+$global-medium-gutter:                           40px;
+$global-large-gutter:                            60px;
+
+// controls
+$global-control-height:                          42px;
+$global-control-small-height:                    30px;
+$global-control-large-height:                    55px;
+
+// z-index
+$global-z-index:                                 1000;

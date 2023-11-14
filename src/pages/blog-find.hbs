@@ -1,0 +1,37 @@
+---
+layout: default
+title: Blog
+breadcrumb: true
+asBlog: false
+---
+<main data-title="blog-find">
+    <!-- blog content begin -->
+    <div class="uk-section uk-margin-small-top">
+        <div class="uk-container">
+            <div class="uk-grid{{#if setting.blog.showWidgets.allHide}} uk-flex uk-flex-center{{/if}}" data-uk-grid>
+                <div {{#unless setting.blog.showWidgets.allHide}}class="uk-width-2-3@m"{{/unless}}{{#if setting.blog.showWidgets.allHide}}class="uk-width-3-4@m"{{/if}}>
+                    <p class="uk-text-muted uk-margin-remove blog-find-text"></p>
+                    <h2 class="uk-margin-remove-top blog-find-heading"><i class="fas fa-tags fa-xs uk-margin-small-right"></i>keyword</h2>
+                    {{> component-blog-find }}
+                </div>
+                {{#unless setting.blog.showWidgets.allHide}}
+                <div class="uk-width-expand@m">
+                    {{#if setting.blog.showWidgets.search}}
+                    {{> component-widget-search }}
+                    {{/if}}
+                    {{#if setting.blog.showWidgets.categories}}
+                    {{> component-widget-categories }}
+                    {{/if}}
+                    {{#if setting.blog.showWidgets.latestPosts}}
+                    {{> component-widget-latest }}
+                    {{/if}}
+                    {{#if setting.blog.showWidgets.tags}}
+                    {{> component-widget-tags }}
+                    {{/if}}
+                </div>
+                {{/unless}}
+            </div>
+        </div>
+    </div>
+    <!-- blog content end -->
+</main>

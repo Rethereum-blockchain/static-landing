@@ -1,0 +1,61 @@
+<!-- blog content begin -->
+<div class="uk-section uk-margin-small-top">
+    <div class="uk-container">
+        <div class="uk-grid uk-flex uk-flex-center in-blog-1 in-article">
+            {{#if blog.image}}
+            <div class="uk-width-1-1 in-figure-available">
+                <img class="uk-width-1-1 uk-border-rounded" src="{{root}}{{blog.image}}" alt="{{blog.title}}">
+            </div>
+            {{/if}}
+            <div class="uk-width-3-4@m">
+                <article class="uk-card uk-card-default uk-border-rounded{{#if blog.image}} in-flat-rounded-top{{/if}}">
+                    <div class="uk-card-body">
+                        <div class="uk-flex">
+                            {{#if setting.blog.displayAuthor}}
+                            <div class="uk-margin-small-right">
+                                <img class="uk-border-pill uk-background-muted" src="{{root}}{{blog.author.avatar}}" alt="author" width="32" height="32">
+                            </div>
+                            <div class="uk-flex uk-flex-middle">
+                                <p class="uk-text-small uk-text-muted uk-margin-remove">
+                                    {{blog.author.name}}
+                                    <span class="uk-margin-small-left uk-margin-small-right">•</span>
+                                </p>
+                            </div>
+                            {{/if}}
+                            <div class="uk-flex uk-flex-middle">
+                                <p class="uk-text-small uk-text-muted uk-margin-remove">
+                                    {{blog.dateCreated}}
+                                </p>
+                            </div>
+                        </div>
+                        <h2 class="uk-margin-top uk-margin-medium-bottom">{{blog.title}}</h2>
+                        {{#each blog.blocks}}
+                        {{> component-editor }}
+                        {{/each}}
+                    </div>
+                    {{#ifand setting.blog.displayTag setting.blog.displayShareButtons}}
+                    <div class="uk-card-footer uk-clearfix">
+                        {{#if setting.blog.displayTag}}
+                        <div class="uk-float-left in-article-tags">
+                            <i class="fas fa-tags"></i><span class="uk-margin-small-left uk-text-bold">Tags: &nbsp;</span>
+                            {{#each blog.tags}}
+                            <a href="{{@root.root}}blog-find.html?tag={{this}}" class="uk-link-muted">{{this}}</a>{{#unless @last}},&nbsp;{{/unless}}
+                            {{/each}}
+                        </div>
+                        {{/if}}
+                        {{#if setting.blog.displayShareButtons}}
+                        <div class="uk-float-right in-article-share share-btn">
+                            <a class="uk-label color-facebook" data-id="fb"><i class="fab fa-facebook-f"></i></a>
+                            <a class="uk-label color-twitter" data-id="tw"><i class="fab fa-twitter"></i></a>
+                            <a class="uk-label color-pinterest" data-id="pi"><i class="fab fa-pinterest-p"></i></a>
+                            <a class="uk-label color-email" data-id="mail"><i class="fas fa-envelope"></i></a>
+                        </div>
+                        {{/if}}
+                    </div>
+                    {{/ifand}}
+                </article>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- blog content end -->

@@ -1,0 +1,24 @@
+.in-testimonial-8 {    
+    .uk-card {
+        padding-top: 20px;
+        padding-bottom: 15px;
+    }
+    .uk-card-default {
+        border: $global-border-width solid $global-border;
+        background-color: $global-inverse-color;
+    }
+}
+@media (max-width: 960px) {
+    .in-testimonial-8 {
+        .uk-position-bottom-right {
+            width: 46%;
+        }
+    }
+}
+@media (min-width: 640px) and (max-width: 960px) {
+    .in-testimonial-8 {
+        .uk-position-bottom-right {
+            width: 26%;
+        }
+    }
+}

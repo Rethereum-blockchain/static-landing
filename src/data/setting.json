@@ -1,0 +1,76 @@
+{
+  "project": "Rethereum",
+  "siteInfo": {
+    "pageTitle": "Rethereum EVM Blockchain",
+    "metaDescription": "The Rethereum Crypto Currency",
+    "metaKeywords": [
+      "Rethereum",
+      "EVM",
+      "Blockchain",
+      "Crypto",
+      "Cryptocurrency",
+      "Solidity"
+    ],
+    "metaAuthor": "Rethereum",
+    "metaThemeColor": "#4988bf",
+    "favicon": "img/favicon.ico",
+    "touchIcon": "img/apple-touch-icon.png"
+  },
+  "colors": {
+    "primaryColor": "#4988bf",
+    "secondaryColor": "#15aebf",
+    "successColor": "#3BD297",
+    "infoColor": "#1980EC",
+    "warningColor": "#F2C643",
+    "dangerColor": "#EE4F6F",
+    "lightColor": "#f2e291",
+    "darkColor": "#f28322",
+    "backgroundColor": "#f2e291",
+    "bodyColor": "#4988bf",
+    "linkColor": "#4988bf"
+  },
+  "authors": [
+    {
+      "id": "2LKIG3",
+      "name": "tagKnife",
+      "email": "templates@indonez.com",
+      "avatar": "img/blockit/in-avatar.svg",
+      "bio": "A backend software engineer \"extremely good at one thing\" white text on a black background."
+    }
+  ],
+  "blog": {
+    "asBlog": [
+      "blog"
+    ],
+    "categories": [
+      "cryptocurrency",
+      "news",
+      "security",
+      "update"
+    ],
+    "postPerPage": "3",
+    "showWidgets": {
+      "allHide": false,
+      "search": false,
+      "categories": true,
+      "latestPosts": true,
+      "tags": true
+    },
+    "displayAuthor": true,
+    "displayTag": true,
+    "displayShareButtons": true,
+    "disqussShortname": "html-demo"
+  },
+  "release": {
+    "version": "1.12.1",
+    "link": "https://github.com/Rethereum-blockchain/go-rethereum/releases/tag/1.12.1"
+  },
+  "optimization": {
+    "minifyAssets": {
+      "html": true,
+      "css": true,
+      "js": true
+    },
+    "preloadCritical": true
+  }
+}

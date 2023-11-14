@@ -1,0 +1,13 @@
+.in-client-logo-3 {
+    .uk-tile {
+        background: $global-background;
+        padding: 10px 25px;
+        img {
+            opacity: 0.8;
+            transition: 0.3s ease-in-out;
+            &:hover {
+                opacity: 1;
+            }
+        }
+    }
+}

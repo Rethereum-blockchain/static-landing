@@ -1,0 +1,43 @@
+@mixin hook-form(){
+    font-size: 0.941rem;
+    border: $global-border-width solid $global-border;
+    transition: 0.2s ease-in-out;
+    transition-property: color, background-color, border;
+}
+@mixin hook-form-focus(){ border-color: #1e87f0; }
+@mixin hook-form-disabled(){ border-color: $global-border; }
+@mixin hook-form-danger(){ border-color: $global-danger-background; }
+@mixin hook-form-success(){ border-color: $global-success-background; }
+@mixin hook-form-blank(){ border-color: transparent; }
+@mixin hook-form-blank-focus(){
+    border-color: $global-border;
+    border-style: solid;
+}
+@mixin hook-form-radio(){
+    border: $global-border-width solid darken($global-border, 10%);
+    transition: 0.2s ease-in-out;
+    transition-property: background-color, border;
+}
+@mixin hook-form-radio-focus(){ border-color: $global-primary-background; }
+@mixin hook-form-radio-checked(){ border-color: transparent; }
+@mixin hook-form-radio-disabled(){ border-color: $global-border; }
+@mixin hook-form-label(){
+    color: $global-emphasis-color;
+    font-size: $global-small-font-size;
+}
+@mixin hook-form-misc(){ 
+    .uk-select:not([multiple]):not([size]) {background-position: 98.7% 50%;}    
+    .uk-form-icon-flip {
+        right: 30px;
+    }
+    .uk-form-icon {
+        &::before {
+            position: relative;
+            top:20px; 
+            left: 30px;
+        }
+    }
+    .uk-checkbox {
+        border-radius: 4px;
+    }
+}

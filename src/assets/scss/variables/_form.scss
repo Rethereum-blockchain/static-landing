@@ -1,0 +1,71 @@
+$form-height:                                    $global-control-height;
+$form-line-height:                               40px - (2* 1px);
+$form-padding-horizontal:                        14px;
+$form-padding-vertical:                          4px;
+
+$form-background:                                $global-inverse-color;
+$form-color:                                     $global-color;
+
+$form-focus-background:                          $global-inverse-color;
+$form-focus-color:                               $global-color;
+
+$form-disabled-background:                       $global-muted-background;
+$form-disabled-color:                            $global-muted-color;
+
+$form-placeholder-color:                         $global-muted-color;
+
+$form-small-height:                              $global-control-small-height;
+$form-small-padding-horizontal:                  8px;
+$form-small-padding-vertical:                    round($form-small-padding-horizontal * 0.6);
+$form-small-line-height:                         32px - (2* 1px);
+$form-small-font-size:                           $global-small-font-size;
+
+$form-large-height:                              $global-control-large-height;
+$form-large-padding-horizontal:                  12px;
+$form-large-padding-vertical:                    round($form-large-padding-horizontal * 0.6);
+$form-large-line-height:                         57px - (2* 1px);
+$form-large-font-size:                           $global-medium-font-size;
+
+$form-danger-color:                              $global-danger-background;
+$form-success-color:                             $global-success-background;
+
+$form-width-xsmall:                              50px;
+$form-width-small:                               130px;
+$form-width-medium:                              200px;
+$form-width-large:                               500px;
+
+$form-select-padding-right:                      20px;
+$form-select-icon-color:                         $global-color;
+$form-select-option-color:                       $global-color;
+$form-select-disabled-icon-color:                $global-muted-color;
+
+$form-datalist-padding-right:                    20px;
+$form-datalist-icon-color:                       $global-color;
+
+$form-radio-size:                                16px;
+$form-radio-margin-top:                          -4px;
+$form-radio-background:                          darken($global-muted-background, 5%);
+
+$form-radio-focus-background:                    darken($form-radio-background, 5%);
+
+$form-radio-checked-background:                  $global-primary-background;
+$form-radio-checked-icon-color:                  $global-inverse-color;
+
+$form-radio-checked-focus-background:            darken($global-primary-background, 10%);
+
+$form-radio-disabled-background:                 $global-muted-background;
+$form-radio-disabled-icon-color:                 $global-muted-color;
+
+$form-legend-font-size:                          $global-large-font-size;
+$form-legend-line-height:                        1.4;
+
+$form-stacked-margin-bottom:                     $global-small-margin;
+
+$form-horizontal-label-width:                    200px;
+$form-horizontal-label-margin-top:               7px;
+$form-horizontal-controls-margin-left:           215px;
+$form-horizontal-controls-text-padding-top:      7px;
+
+$form-icon-width:                                $form-height;
+$form-icon-color:                                $global-muted-color;
+$form-icon-hover-color:                          $global-color;

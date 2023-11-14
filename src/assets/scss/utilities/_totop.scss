@@ -1,0 +1,24 @@
+.to-top {    
+    font-size: 0;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    background-color: $global-primary-background;
+    border-radius: 10px;
+    opacity: 0;
+    &.uk-animation-slide-top {
+        opacity: 1;
+    }
+    &:hover {
+        text-decoration: none;
+    }
+    i {
+        font-size: 15px;
+        color: $global-inverse-color;
+    }
+}

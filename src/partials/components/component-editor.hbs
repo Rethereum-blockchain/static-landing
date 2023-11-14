@@ -1,0 +1,61 @@
+{{!-- Text block --}}
+{{#ifequal this.type "paragraph"}}
+<p>{{{this.data.text}}}</p>
+{{/ifequal}}
+{{!-- Heading block --}}
+{{#ifequal this.type "header"}}
+    {{~#ifequal this.data.level 1~}}<h1 class="uk-margin-small-bottom">{{this.data.text}}</h1>{{/ifequal}}
+    {{~#ifequal this.data.level 2~}}<h2 class="uk-margin-small-bottom">{{this.data.text}}</h2>{{/ifequal}}
+    {{~#ifequal this.data.level 3~}}<h3 class="uk-margin-small-bottom">{{this.data.text}}</h3>{{/ifequal}}
+    {{~#ifequal this.data.level 4~}}<h4 class="uk-margin-small-bottom">{{this.data.text}}</h4>{{/ifequal}}
+    {{~#ifequal this.data.level 5~}}<h5 class="uk-margin-small-bottom">{{this.data.text}}</h5>{{/ifequal}}
+{{/ifequal}}
+{{!-- Image block --}}
+{{#ifequal this.type "image"}}
+<figure class="in-article-image">
+    <img src="{{@root.root}}{{this.data.file.url}}" class="uk-width-1-1{{#unless this.data.caption}} uk-margin-small-bottom{{/unless}}"{{#if this.data.caption}} alt="{{this.data.caption}}"{{/if}}>
+    {{#if this.data.caption}}
+    <figcaption class="uk-text-small uk-text-center uk-text-muted uk-margin-top">{{this.data.caption}}</figcaption>
+    {{/if}}
+</figure>
+{{/ifequal}}
+{{!-- List block --}}
+{{#ifequal this.type "list"}}
+    {{#ifequal this.data.style "ordered"}}
+    <ol class="lh-lg">
+        {{#each this.data.items}}<li>{{this}}</li>{{/each}}
+    </ol>
+    {{/ifequal}}
+    {{#ifequal this.data.style "unordered"}}
+    <ul class="lh-lg">
+        {{#each this.data.items}}<li>{{this}}</li>{{/each}}
+    </ul>
+    {{/ifequal}}
+{{/ifequal}}
+{{!-- Blockquote block --}}
+{{#ifequal this.type "quote"}}
+<blockquote class="in-article-blockquote">
+    <p class="uk-margin-small-bottom">{{this.data.text}}</p>
+    <footer><cite>{{this.data.caption}}</cite></footer>
+</blockquote>
+{{/ifequal}}
+{{!-- Table block --}}
+{{#ifequal this.type "table"}}
+<table class="in-article-table uk-table uk-table-divider uk-margin-top uk-margin-bottom">
+    {{#each this.data.content}}
+        <tbody>
+            <tr>
+                {{#each this}}
+                <td>{{this}}</td>
+                {{/each}}
+            </tr>
+        </tbody>
+    {{/each}}
+</table>
+{{/ifequal}}
+{{!-- Youtube block --}}
+{{#ifequal this.type "youtubeEmbed"}}
+<div class="in-article-youtube">
+    <iframe src="https://www.youtube.com/embed/{{this.data.id}}?controls=0" frameborder="0" allowfullscreen="true"></iframe>
+</div>
+{{/ifequal}}
