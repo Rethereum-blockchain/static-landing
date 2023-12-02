@@ -43,7 +43,7 @@
       "id": "2LSohvGv8g",
       "type": "paragraph",
       "data": {
-        "text": "The rename campaign was a success, with over 1,000 community members participating in the voting process and expressing their support for the new name. The official rebranding will take place on December 8th, when the Hypra switch over will go happen. Hypra invites everyone to join the celebration and witness the EVM chain that will revolutionize the Proof-of-Work space."
+        "text": "The rename campaign was a success, with over 1,000 community members participating in the voting process and expressing their support for the new name. The official rebranding will take place on <b>December 8th</b>, when the Hypra switch over will go happen. Hypra invites everyone to join the celebration and witness the EVM chain that will revolutionize the Proof-of-Work space."
       }
     },
     {
@@ -64,5 +64,5 @@
   "dateCreated": "December 02, 2023",
   "dateModified": "December 02, 2023",
   "timeCreated": "03:51 PM",
-  "timeModified": "03:55 PM"
+  "timeModified": "03:58 PM"
 }
