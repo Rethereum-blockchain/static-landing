@@ -36,7 +36,7 @@
       "id": "AG-OY7HIu_",
       "type": "paragraph",
       "data": {
-        "text": "Hypra aims to be a fast, secure and scalable EVM chain that preserves the Proof-of-Work consensus mechanism and supports interoperability with other blockchains. Hypra also introduces novel innovations such as dynamic block rewards, adaptive difficulty adjustment, and hybrid mining. The new name reflects the vision of creating a hyper-efficient and hyper-connected EVM chain that can power the future of decentralized applications. "
+        "text": "Hypra aims to be a fast, secure and scalable EVM chain that preserves the Proof-of-Work consensus mechanism and supports interoperability with other blockchains. Hypra also introduces novel innovations such as dynamic block rewards, adaptive difficulty adjustment, and incorporating Ethereums Proof-of-Stake upgrade features while keeping Proof-of-Work. The new name reflects the vision of creating a hyper-efficient and hyper-connected EVM chain that can power the future of decentralized applications. "
       }
     },
     {
@@ -64,5 +64,5 @@
   "dateCreated": "December 02, 2023",
   "dateModified": "December 02, 2023",
   "timeCreated": "03:51 PM",
-  "timeModified": "04:03 PM"
+  "timeModified": "04:12 PM"
 }
