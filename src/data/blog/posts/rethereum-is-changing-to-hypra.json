@@ -1,0 +1,68 @@
+{
+  "title": "Rethereum is changing to Hypra",
+  "link": "rethereum-is-changing-to-hypra.html",
+  "author": {
+    "id": "2LKIG3",
+    "name": "tagKnife",
+    "avatar": "img/blockit/in-avatar.svg",
+    "bio": "A backend software engineer \"extremely good at one thing\" white text on a black background."
+  },
+  "category": "news",
+  "tags": [
+    "rethereum",
+    "hypra",
+    "rename"
+  ],
+  "image": false,
+  "biography": true,
+  "comments": true,
+  "hidden": false,
+  "blocks": [
+    {
+      "id": "O0GEYOSJmS",
+      "type": "paragraph",
+      "data": {
+        "text": "Rethereum, the innovative Ethereum Proof-of-Work EVM chain, is excited to announce its rename campaign and the final name as chosen by the community: <b>Hypra</b>, with the ticker symbol 'HYP'. "
+      }
+    },
+    {
+      "id": "UiY41NJqj4",
+      "type": "paragraph",
+      "data": {
+        "text": "The rename campaign was launched in Novemebr to address the main challenge of being overshadowed by Ethereum and to highlight the unique and never before done features of Rethereum. "
+      }
+    },
+    {
+      "id": "AG-OY7HIu_",
+      "type": "paragraph",
+      "data": {
+        "text": "Hypra aims to be a fast, secure and scalable EVM chain that preserves the Proof-of-Work consensus mechanism and supports interoperability with other blockchains. Hypra also introduces novel innovations such as dynamic block rewards, adaptive difficulty adjustment, and hybrid mining. The new name reflects the vision of creating a hyper-efficient and hyper-connected EVM chain that can power the future of decentralized applications. "
+      }
+    },
+    {
+      "id": "2LSohvGv8g",
+      "type": "paragraph",
+      "data": {
+        "text": "The rename campaign was a success, with over 1,000 community members participating in the voting process and expressing their support for the new name. The official rebranding will take place on December 8th, when the Hypra switch over will go happen. Hypra invites everyone to join the celebration and witness the EVM chain that will revolutionize the Proof-of-Work space."
+      }
+    },
+    {
+      "id": "yOnGmF4u0C",
+      "type": "paragraph",
+      "data": {
+        "text": "The community support for Hypra has been overwhelming, with many users expressing their enthusiasm and excitement for the new name and the new features. Hypra is not only a name change, but also a brand identity that reflects the values and vision of the project and its community."
+      }
+    },
+    {
+      "id": "12rMv29GUu",
+      "type": "paragraph",
+      "data": {
+        "text": "Hypra is also looking forward to expanding its reach and adoption to new markets and regions, where it can offer a superior EVM experience to users and developers. Hypra is committed to building a global and diverse community that shares its passion for decentralization and innovation. Hypra believes that by working together, it can create a more inclusive and sustainable EVM ecosystem that benefits everyone."
+      }
+    }
+  ],
+  "dateCreated": "December 02, 2023",
+  "dateModified": "December 02, 2023",
+  "timeCreated": "03:51 PM",
+  "timeModified": "03:55 PM"
+}
