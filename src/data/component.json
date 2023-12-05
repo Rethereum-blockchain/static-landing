@@ -38,7 +38,7 @@
     }
   },
   "footer": {
-    "copyrightText": "Copyright ©2023 Rethereum Org. All Rights Reserved.",
+    "copyrightText": "Copyright ©2023 Hypra Network. All Rights Reserved.",
     "siteLogo": {
       "enabled": false,
       "logo": {
@@ -58,7 +58,7 @@
       "facebook": ""
     },
     {
-      "twitter": "https://twitter.com/RethereumOrg"
+      "twitter": "https://twitter.com/HypraNetwork"
     },
     {
       "instagram": ""
