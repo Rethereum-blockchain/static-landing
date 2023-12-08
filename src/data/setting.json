@@ -1,20 +1,21 @@
 {
-  "project": "Rethereum",
+  "project": "Hypra",
   "siteInfo": {
-    "pageTitle": "Rethereum EVM Blockchain",
-    "metaDescription": "The Rethereum Crypto Currency",
+    "pageTitle": "Hypra EVM Blockchain",
+    "metaDescription": "The Hypra Crypto Currency",
     "metaKeywords": [
-      "Rethereum",
+      "Hypra Network",
       "EVM",
       "Blockchain",
       "Crypto",
       "Cryptocurrency",
       "Solidity"
     ],
-    "metaAuthor": "Rethereum",
+    "metaAuthor": "Hypra",
     "metaThemeColor": "#4988bf",
     "favicon": "img/favicon.ico",
-    "touchIcon": "img/apple-touch-icon.png"
+    "touchIcon": "img/apple-touch-icon.png",
+    "explorer": "https://explorer.hypra.network"
   },
   "colors": {
     "primaryColor": "#4988bf",
@@ -33,7 +34,7 @@
     {
       "id": "2LKIG3",
       "name": "tagKnife",
-      "email": "admin@rethereum.org",
+      "email": "admin@hypra.network",
       "avatar": "img/blockit/in-avatar.svg",
       "bio": "A backend software engineer \"extremely good at one thing\" white text on a black background."
     }
@@ -72,5 +73,10 @@
       "js": true
     },
     "preloadCritical": true
+  },
+  "rpc": {
+    "url": "https://rpc.hypra.network",
+    "chainId": "0x97EC5",
+    "symbol": "HYP"
   }
 }
