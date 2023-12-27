@@ -1,0 +1,120 @@
+{
+  "title": "Hypra the only Proof-of-Work chain to enable Shanghai",
+  "link": "hypra-the-only-proof-of-work-chain-to-enable-shanghai.html",
+  "author": {
+    "id": "2LKIG3",
+    "name": "tagKnife",
+    "avatar": "img/blockit/in-avatar.svg",
+    "bio": "A backend software engineer \"extremely good at one thing\" white text on a black background."
+  },
+  "category": "news",
+  "tags": [
+    "pressrelease",
+    "news",
+    "upgrade"
+  ],
+  "image": false,
+  "biography": true,
+  "comments": true,
+  "hidden": true,
+  "blocks": [
+    {
+      "id": "d-89fWAYv-",
+      "type": "header",
+      "data": {
+        "text": "What is the Hypra Network?",
+        "level": 2
+      }
+    },
+    {
+      "id": "9Ep5Uusz9r",
+      "type": "paragraph",
+      "data": {
+        "text": "The Hypra Network is a Proof-of-Work Ethereum chain that has implemented the BLAKE3 algorithm. This algorithm is a variation of the Ethash algorithm used by the Ethereum network before switching to Proof-of-Stake, but with increased efficiency and security measures."
+      }
+    },
+    {
+      "id": "xnyXHcFLAm",
+      "type": "paragraph",
+      "data": {
+        "text": "Hypra cryptocurrency has implemented the BLAKE3 algorithm to achieve decentralization and prevent the dominance of specialized mining hardware. This creates a fairer environment for miners and reduces the risk of centralization in the network."
+      }
+    },
+    {
+      "id": "PhV10oAQaR",
+      "type": "header",
+      "data": {
+        "text": "About the Shanghai EVM Upgrade",
+        "level": 2
+      }
+    },
+    {
+      "id": "O5U_gSIwWr",
+      "type": "paragraph",
+      "data": {
+        "text": "The Shanghai EVM upgrade is a major milestone for the Hypra as it is the first Proof-of-Work Ethereum chain to implement this upgrade. This upgrade was proposed by the Ethereum community in April 2023 to improve the overall efficiency and security of the network."
+      }
+    },
+    {
+      "id": "g6cT7l29OA",
+      "type": "paragraph",
+      "data": {
+        "text": "The Shanghai upgrade also introduces new opcodes that allow for more efficient and secure smart contract development. These new opcodes enable features such as PUSH0. "
+      }
+    },
+    {
+      "id": "bsO1w3C-XM",
+      "type": "paragraph",
+      "data": {
+        "text": "In comparison to other Ethereum forks, such as ETHPow or ETHFair, Hypra stands out with its implementation of Proof-of-Work and now with the Gaspar upgrade bringing Shanghai features onto their network. This puts them in a unique position within the ecosystem as they are currently the only decentralized EVM network offering these solutions. With this accomplishment, Hypra solidifies itself as a competitor in providing fast and efficient transactions while remaining true to decentralization principles."
+      }
+    },
+    {
+      "id": "lPpArrkc09",
+      "type": "paragraph",
+      "data": {
+        "text": "Overall, the upgrade brings significant improvements to the Hypra Network, making it a more attractive platform for developers and users alike. By implementing this upgrade, Hypra is further solidifying its position as a leading Proof-of-Work Ethereum chain and paving the way for future advancements and developments in the network."
+      }
+    },
+    {
+      "id": "XcGrbAjMWi",
+      "type": "header",
+      "data": {
+        "text": "Why Hypra is the only network to enable Shanghai?",
+        "level": 2
+      }
+    },
+    {
+      "id": "QaQl3UKrSY",
+      "type": "paragraph",
+      "data": {
+        "text": "Hypra's implementation of the Shanghai upgrade is a significant achievement, that we are able to accomplish because we have an active team of experienced developers. "
+      }
+    },
+    {
+      "id": "FQF9jiMiU0",
+      "type": "paragraph",
+      "data": {
+        "text": "Other Proof-of-Work Ethereum chains may face technical limitations or challenges in implementing the Shanghai upgrade, as they may not have the same level of experience and knowledge of Ethereum as the Hypra team. Additionally, Hypra's dedicated team of developers and community members have worked tirelessly to ensure a smooth implementation of the upgrade."
+      }
+    },
+    {
+      "id": "3SIYfEyZGT",
+      "type": "paragraph",
+      "data": {
+        "text": "The potential growth and development for the network, Hypra's achievements with implementing Shanghai features through Gaspar upgrade have certainly put them ahead in terms of technological advancements among other EVM networks. This could make them an attractive option for developers seeking a reliable platform that offers both scalability and security without frequent disruptions or upgrades."
+      }
+    },
+    {
+      "id": "aXS23MbALL",
+      "type": "paragraph",
+      "data": {
+        "text": "By being the first and only Proof-of-Work Ethereum chain to enable the Shanghai upgrade, Hypra is setting itself apart from other networks and establishing itself as a leader in the space. This achievement also highlights Hypra's commitment to innovation and staying up-to-date with the latest advancements in cryptocurrency and blockchain technology."
+      }
+    }
+  ],
+  "dateCreated": "December 29, 2023",
+  "dateModified": "December 27, 2023",
+  "timeCreated": "09:02 AM",
+  "timeModified": "01:07 PM"
+}
