@@ -19,6 +19,13 @@
   "hidden": true,
   "blocks": [
     {
+      "id": "IrRZ4JeSdY",
+      "type": "paragraph",
+      "data": {
+        "text": "Hypra developement team is proud to announce that the Gaspar fork has been successfully activated on the cryptocurrency network. On block after 1.6 million blocks mined, the Hypra blockchain is on par in features with Ethereum mainnet!<br>"
+      }
+    },
+    {
       "id": "d-89fWAYv-",
       "type": "header",
       "data": {
@@ -116,5 +123,5 @@
   "dateCreated": "December 29, 2023",
   "dateModified": "December 27, 2023",
   "timeCreated": "09:02 AM",
-  "timeModified": "01:07 PM"
+  "timeModified": "01:40 PM"
 }
