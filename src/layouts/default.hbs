@@ -13,11 +13,11 @@
     {{/if}}
     {{> component-styles }}
     <!-- uikit -->
-    <script src="{{root}}js/vendors/uikit.min.js"></script>
+    <script src="/js/vendors/uikit.min.js"></script>
     <!-- favicon -->
-    <link rel="shortcut icon" href="{{root}}{{setting.siteInfo.favicon}}" type="image/x-icon"/>
+    <link rel="shortcut icon" href="https://{{setting.domain}}/{{setting.siteInfo.favicon}}" type="image/png" sizes="{{setting.siteInfo.faviconSize}}x{{setting.siteInfo.faviconSize}}"/>
     <!-- touch icon -->
-    <link rel="apple-touch-icon-precomposed" href="{{root}}{{setting.siteInfo.touchIcon}}"/>
+    <link rel="apple-touch-icon-precomposed" href="https://{{setting.domain}}/{{setting.siteInfo.touchIcon}}"/>
     <title>{{title}} - {{setting.siteInfo.pageTitle}}</title>
     {{#if blog.link}}
     <link rel="canonical" href="https://{{setting.domain}}/blog/{{blog.link}}"/>
@@ -35,10 +35,5 @@
 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9CTSD87ZTN"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-9CTSD87ZTN');
-</script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-9CTSD87ZTN');</script>
 </html>

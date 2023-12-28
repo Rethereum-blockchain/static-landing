@@ -3,7 +3,7 @@
   "domain": "www.hypra.network",
   "siteInfo": {
     "pageTitle": "Hypra EVM Blockchain",
-    "metaDescription": "The Hypra Crypto Currency",
+    "metaDescription": "Hypra is a Proof-of-Work blockchain, built to be fast and secure. An Ethereum fork that is backwards compatible for smart contracts, ERC20 tokens and NFTs.",
     "metaKeywords": [
       "Hypra Network",
       "EVM",
@@ -15,6 +15,7 @@
     "metaAuthor": "Hypra",
     "metaThemeColor": "#4988bf",
     "favicon": "img/favicon.ico",
+    "faviconSize": "32",
     "touchIcon": "img/apple-touch-icon.png",
     "explorer": "https://explorer.hypra.network"
   },
