@@ -1,7 +1,7 @@
-Rethereun Static Website
+Hypra Static Website
 ========================
 
-This is the code for the Rethereum website [https://www.rethereum.org](https://www.rethereum.org)
+This is the code for the hypra website [https://www.hypra.network](https://www.hypra.network)
 It comes with a basic website build for anyone to be able to to modify the site and submit pull requests.a
 
 This also includes a basic static blog builder.
