@@ -13,10 +13,10 @@
     "news",
     "upgrade"
   ],
-  "image": false,
+  "image": "img/user/image-featured-hILZz9.jpg",
   "biography": true,
   "comments": true,
-  "hidden": true,
+  "hidden": false,
   "blocks": [
     {
       "id": "IrRZ4JeSdY",
@@ -118,10 +118,17 @@
       "data": {
         "text": "By being the first and only Proof-of-Work Ethereum chain to enable the Shanghai upgrade, Hypra is setting itself apart from other networks and establishing itself as a leader in the space. This achievement also highlights Hypra's commitment to innovation and staying up-to-date with the latest advancements in cryptocurrency and blockchain technology."
       }
+    },
+    {
+      "id": "XYQG0EjEyX",
+      "type": "paragraph",
+      "data": {
+        "text": "This fork was acheived on block: <a href=\"https://explorer.hypra.network/block/1600957/transactions\">1,600,957</a>"
+      }
     }
   ],
   "dateCreated": "December 29, 2023",
-  "dateModified": "December 27, 2023",
+  "dateModified": "December 29, 2023",
   "timeCreated": "09:02 AM",
-  "timeModified": "01:40 PM"
+  "timeModified": "04:12 PM"
 }
