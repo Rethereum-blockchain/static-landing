@@ -1,0 +1,201 @@
+{
+  "title": "The future of Geth in Hypra",
+  "link": "the-future-of-geth-in-hypra.html",
+  "author": {
+    "id": "2LKIG3",
+    "name": "tagKnife",
+    "avatar": "img/blockit/in-avatar.svg",
+    "bio": "A backend software engineer \"extremely good at one thing\" white text on a black background."
+  },
+  "category": "news",
+  "tags": [
+    "hypra",
+    "development",
+    "pressrelease"
+  ],
+  "image": false,
+  "biography": true,
+  "comments": true,
+  "hidden": false,
+  "blocks": [
+    {
+      "id": "WuiqgPbl3x",
+      "type": "paragraph",
+      "data": {
+        "text": "Hypra has made huge strides in our goals to keeping a proof-of-work ethereum chain running and up to parity with Ethereum mainnet. This has not been without struggle most notable with the recent <a href=\"https://www.hypra.network/blog/hypra-the-only-proof-of-work-chain-to-enable-shanghai.html\">Gaspar fork to enable Shanghai</a> where we failed the activate it the first time around due to code traps for beacon and Proof-of-stake. We did prevail in the end to activate the upgrade without any breaking changes."
+      }
+    },
+    {
+      "id": "ngkFPEl-4G",
+      "type": "header",
+      "data": {
+        "text": "What is the future with Geth",
+        "level": 2
+      }
+    },
+    {
+      "id": "fd19BZJY62",
+      "type": "paragraph",
+      "data": {
+        "text": "The difficulty we faced with Gaspar showed us we need a different way to keep upgrading the chain with ethereums upgrades without fighting back Proof-of-stake. Ethereum devs has displayed anamosity to Proof-of-work in their upgrades, with highly opinionated work putting as much effort as possible to require chains to use Beacon. "
+      }
+    },
+    {
+      "id": "Eved0C-Drd",
+      "type": "paragraph",
+      "data": {
+        "text": "This is dishearting as at the time when Ethereum switched to proof-of-stake and <a href=\"https://github.com/ethereum/go-ethereum/pull/27178\">removed Proof-of-work code</a> from the codebase it is estimated 1000+ Proof-of-work chains were cut off from the feature pipeline unless they upgraded to use Beacon. Most of these chains used the base ethereum Geth with trust that ethereum wouldnt cut them off, but here we are. "
+      }
+    },
+    {
+      "id": "FuM62IX2Tz",
+      "type": "paragraph",
+      "data": {
+        "text": "The Hypra team has been exploring and researching possiblities to move away from the Ethereum base Geth towards other implimentations with a more sensable approach to the EVM ecosystem as a whole. That would allow Hypra to seemlessly upgrade the chain with easy and continued support."
+      }
+    },
+    {
+      "id": "CdnEbL67Qu",
+      "type": "header",
+      "data": {
+        "text": "Possible candidates",
+        "level": 2
+      }
+    },
+    {
+      "id": "SIAccx090_",
+      "type": "paragraph",
+      "data": {
+        "text": "We have identified 2 possible candidates for this, both are modular in design and support multiple different networks within 1 codebase. They are actively developed and supported and frequently port ethereum features without the battle with Proof-of-stake."
+      }
+    },
+    {
+      "id": "fQZ7UrlsoH",
+      "type": "paragraph",
+      "data": {
+        "text": "<b>Option 1: </b><a href=\"https://www.nethermind.io/\">Nethermind</a><br>Nethermind is an ethereum client built with c#, with modularity and multichain support. Primarly designed to be a diversity client for ethereum.<br>"
+      }
+    },
+    {
+      "id": "OtcRzAQvfg",
+      "type": "paragraph",
+      "data": {
+        "text": "<b>Pros</b>"
+      }
+    },
+    {
+      "id": "S7PM4PWlH8",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          "Fast and more efficeint, nethermind uses custom data storage and syncing methods to be faster.",
+          "Funded developement, nethermind is a company with funding to support developement.",
+          "Multichain support, supports Ethereum, Gnosis, Base, Optimism, POA and more."
+        ]
+      }
+    },
+    {
+      "id": "-rsKa58nqD",
+      "type": "paragraph",
+      "data": {
+        "text": "<b>Cons</b>"
+      }
+    },
+    {
+      "id": "LcDM4lHkEe",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          "C#, the hypra team does not have adequate experience with C#.",
+          "Company backing could lead to pushing there own narrative."
+        ]
+      }
+    },
+    {
+      "id": "IQhxjwLjd1",
+      "type": "paragraph",
+      "data": {
+        "text": "&nbsp;"
+      }
+    },
+    {
+      "id": "2VYFJvgvXZ",
+      "type": "paragraph",
+      "data": {
+        "text": "<b>Option 2: </b><a href=\"https://etclabscore.github.io/core-geth/\">eth-core</a><br>eth-core is a modified version of geth with modularity and multiple eth chain support as its there core princaples. With focus on supporting the base Ethereum protocal and building ontop of it. Theoretically it could be possible to add other smart contract languages, such a the &lt;Move&gt; language. <br>"
+      }
+    },
+    {
+      "id": "PPDBya6Svl",
+      "type": "paragraph",
+      "data": {
+        "text": "<b>Pros</b>"
+      }
+    },
+    {
+      "id": "6-mKAAEleo",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          "Modified Geth to support multiple chains and modular design.",
+          "Backed by Ethereum Classic and Ethereum Foundation.",
+          "Multichain support, supports Ethereum, ethereum classic and Mintme.",
+          "Familuar code, based on geth so easier to get to grips with..<br>"
+        ]
+      }
+    },
+    {
+      "id": "87i__EztRd",
+      "type": "paragraph",
+      "data": {
+        "text": "<b>Cons</b>"
+      }
+    },
+    {
+      "id": "WEbbUV4N8Q",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          "Compared to Nethermind, slower to port over Ethereum features."
+        ]
+      }
+    },
+    {
+      "id": "mU6ZkxNxdN",
+      "type": "paragraph",
+      "data": {
+        "text": "&nbsp;"
+      }
+    },
+    {
+      "id": "yNlfgUBZV3",
+      "type": "header",
+      "data": {
+        "text": "What would Hypra need to do to transition?",
+        "level": 2
+      }
+    },
+    {
+      "id": "iJBXpAoxHx",
+      "type": "paragraph",
+      "data": {
+        "text": "Part of the challange of adding support to either of these clients for Hypra would be to to port over EthashB3 and our custom reward distrobution. Unlike other ethereum based chains, Hypra has a predetermined decreasing mining rewards plan every 3 years, While other chains has a set base reward. "
+      }
+    },
+    {
+      "id": "nv1z9G-uC6",
+      "type": "paragraph",
+      "data": {
+        "text": "Adding the ethashb3 custom algorithm will not be hard as the modular design allows for such additions. <br>"
+      }
+    }
+  ],
+  "dateCreated": "February 06, 2024",
+  "dateModified": "February 06, 2024",
+  "timeCreated": "09:39 AM",
+  "timeModified": "11:23 AM"
+}
