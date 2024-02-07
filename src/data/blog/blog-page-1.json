@@ -9,8 +9,8 @@
   "displayAuthor": true,
   "data": [
     {
-      "title": "The future of Geth in Hypra",
-      "link": "the-future-of-geth-in-hypra.html",
+      "title": "The future of Geth and Hypra",
+      "link": "the-future-of-geth-and-hypra.html",
       "author": {
         "id": "2LKIG3",
         "name": "tagKnife",
@@ -23,7 +23,7 @@
         "development",
         "pressrelease"
       ],
-      "image": false,
+      "image": "img/user/image-featured-lvrore.jpg",
       "biography": true,
       "comments": true,
       "hidden": false,
@@ -32,7 +32,7 @@
           "id": "WuiqgPbl3x",
           "type": "paragraph",
           "data": {
-            "text": "Hypra has made huge strides in our goals to keeping a proof-of-work ethereum chain running and up to parity with Ethereum mainnet. This has not been without struggle most notable with the recent <a href=\"https://www.hypra.network/blog/hypra-the-only-proof-of-work-chain-to-enable-shanghai.html\">Gaspar fork to enable Shanghai</a> where we failed the activate it the first time around due to code traps for beacon and Proof-of-stake. We did prevail in the end to activate the upgrade without any breaking changes."
+            "text": "Hypra has made huge strides in our goals to keeping a proof-of-work ethereum chain running and up to parity with Ethereum mainnet. This has not been without struggle most notable with the recent <a href=\"https://www.hypra.network/blog/hypra-the-only-proof-of-work-chain-to-enable-shanghai.html\">Gaspar fork to enable Shanghai</a> where we failed the activate it the first time around due to code traps for beacon and Proof-of-stake. We did prevail in the end to activate the upgrade without any lasting breaking changes."
           }
         },
         {
@@ -47,14 +47,14 @@
           "id": "fd19BZJY62",
           "type": "paragraph",
           "data": {
-            "text": "The difficulty we faced with Gaspar showed us we need a different way to keep upgrading the chain with ethereums upgrades without fighting back Proof-of-stake. Ethereum devs has displayed anamosity to Proof-of-work in their upgrades, with highly opinionated work putting as much effort as possible to require chains to use Beacon. "
+            "text": "The difficulty we faced with Gaspar showed us we need a different way to keep upgrading the chain with ethereum upgrades without fighting back Proof-of-stake. Ethereum devs has displayed anamosity to Proof-of-work in their upgrades, with highly opinionated work putting as much effort as possible to require chains to use Beacon. "
           }
         },
         {
           "id": "Eved0C-Drd",
           "type": "paragraph",
           "data": {
-            "text": "This is dishearting as at the time when Ethereum switched to proof-of-stake and <a href=\"https://github.com/ethereum/go-ethereum/pull/27178\">removed Proof-of-work code</a> from the codebase it is estimated 1000+ Proof-of-work chains were cut off from the feature pipeline unless they upgraded to use Beacon. Most of these chains used the base ethereum Geth with trust that ethereum wouldnt cut them off, but here we are. "
+            "text": "This is dishearting as at the time when Ethereum switched to proof-of-stake and maliciously <a href=\"https://github.com/ethereum/go-ethereum/pull/27178\">removed Proof-of-work code</a> from the codebase. It is estimated 1000+ Proof-of-work chains were cut off from the feature pipeline unless they upgraded to use Beacon. Most of these chains used the base ethereum Geth with trust that ethereum wouldnt cut them off, but here we are. "
           }
         },
         {
@@ -134,7 +134,7 @@
           "id": "2VYFJvgvXZ",
           "type": "paragraph",
           "data": {
-            "text": "<b>Option 2: </b><a href=\"https://etclabscore.github.io/core-geth/\">eth-core</a><br>eth-core is a modified version of geth with modularity and multiple eth chain support as its there core princaples. With focus on supporting the base Ethereum protocal and building ontop of it. Theoretically it could be possible to add other smart contract languages, such a the &lt;Move&gt; language. <br>"
+            "text": "<b>Option 2: </b><a href=\"https://etclabscore.github.io/core-geth/\">eth-core</a><br>eth-core is a modified version of geth with modularity and multiple eth chain support as its there core princaples. With focus on supporting the base Ethereum protocal and building ontop of it.<br>"
           }
         },
         {
@@ -152,8 +152,8 @@
             "items": [
               "Modified Geth to support multiple chains and modular design.",
               "Backed by Ethereum Classic and Ethereum Foundation.",
-              "Multichain support, supports Ethereum, ethereum classic and Mintme.",
-              "Familuar code, based on geth so easier to get to grips with..<br>"
+              "Multichain support, supports Ethereum, Ethereum Classic, POA and Mint.",
+              "Familiar code, based on geth so easier to get to grips with."
             ]
           }
         },
@@ -200,7 +200,14 @@
           "id": "nv1z9G-uC6",
           "type": "paragraph",
           "data": {
-            "text": "Adding the ethashb3 custom algorithm will not be hard as the modular design allows for such additions. <br>"
+            "text": "Adding the ethashb3 custom algorithm will not be hard as the modular design allows for such additions. But adding the custom chain paramters and chains might be difficult, we will see. "
+          }
+        },
+        {
+          "id": "B5aJ9HP93i",
+          "type": "paragraph",
+          "data": {
+            "text": "So for 2024, Hypra team will be working towards a modular client and deprecate the standard geth client, to help facilitate future chain upgrades with minimal brain fires. When we decide to upgrade to cancun we will not be doing so on geth and will fully migrate to the new client. "
           }
         }
       ],
