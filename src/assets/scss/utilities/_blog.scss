@@ -8,8 +8,6 @@
     }
     .uk-card-body {
         a {
-            color: inherit;
-            text-decoration: none;
             &.uk-button-text {
                 color: $global-primary-background;
                 &:hover {
@@ -113,7 +111,7 @@
                 content: "";
             }
         }
-        footer {            
+        footer {
             cite::before {
                 content: "—";
                 margin-right: 10px;
@@ -158,7 +156,7 @@
 }
 
 @media (max-width: 480px) {
-    .in-article {        
+    .in-article {
         .in-article-share {
             margin: 10px 0 5px 0;
             float: left;

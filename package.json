@@ -1,8 +1,8 @@
 {
-  "name": "Rethereum Static Landing",
-  "title": "Rethereum Static Landing",
+  "name": "hypra-static-landing",
+  "title": "Hypra Static Landing",
   "version": "2.0.2",
-  "description": "Rethereum Frontend Site",
+  "description": "Hypra Frontend Site",
   "private": true,
   "scripts": {
     "build": "node ./node_modules/blockit-builder/blockit.js --build",
