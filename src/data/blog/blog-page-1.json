@@ -1,13 +1,439 @@
 {
   "asBlog": "blog",
   "page": 1,
-  "perPage": "3",
+  "perPage": "5",
   "prevPage": null,
   "nextPage": null,
-  "totalPost": 1,
+  "totalPost": 4,
   "totalPages": 1,
   "displayAuthor": true,
   "data": [
+    {
+      "title": "The future of Geth and Hypra",
+      "link": "the-future-of-geth-and-hypra.html",
+      "author": {
+        "id": "2LKIG3",
+        "name": "tagKnife",
+        "avatar": "img/blockit/in-avatar.svg",
+        "bio": "A backend software engineer \"extremely good at one thing\" white text on a black background."
+      },
+      "category": "news",
+      "tags": [
+        "hypra",
+        "development",
+        "pressrelease"
+      ],
+      "image": "img/user/image-featured-lvrore.jpg",
+      "biography": true,
+      "comments": true,
+      "hidden": false,
+      "blocks": [
+        {
+          "id": "WuiqgPbl3x",
+          "type": "paragraph",
+          "data": {
+            "text": "Hypra has made huge strides in our goals to keeping a proof-of-work ethereum chain running and up to parity with Ethereum mainnet. This has not been without struggle most notable with the recent <a href=\"https://www.hypra.network/blog/hypra-the-only-proof-of-work-chain-to-enable-shanghai.html\">Gaspar fork to enable Shanghai</a> where we failed the activate it the first time around due to code traps for beacon and Proof-of-stake. We did prevail in the end to activate the upgrade without any lasting breaking changes."
+          }
+        },
+        {
+          "id": "ngkFPEl-4G",
+          "type": "header",
+          "data": {
+            "text": "What is the future with Geth",
+            "level": 2
+          }
+        },
+        {
+          "id": "fd19BZJY62",
+          "type": "paragraph",
+          "data": {
+            "text": "The difficulty we faced with Gaspar showed us we need a different way to keep upgrading the chain with ethereum upgrades without fighting back Proof-of-stake. Ethereum devs has displayed anamosity to Proof-of-work in their upgrades, with highly opinionated work putting as much effort as possible to require chains to use Beacon. "
+          }
+        },
+        {
+          "id": "Eved0C-Drd",
+          "type": "paragraph",
+          "data": {
+            "text": "This is dishearting as at the time when Ethereum switched to proof-of-stake and maliciously <a href=\"https://github.com/ethereum/go-ethereum/pull/27178\">removed Proof-of-work code</a> from the codebase. It is estimated 1000+ Proof-of-work chains were cut off from the feature pipeline unless they upgraded to use Beacon. Most of these chains used the base ethereum Geth with trust that ethereum wouldnt cut them off, but here we are. "
+          }
+        },
+        {
+          "id": "FuM62IX2Tz",
+          "type": "paragraph",
+          "data": {
+            "text": "The Hypra team has been exploring and researching possiblities to move away from the Ethereum base Geth towards other implimentations with a more sensable approach to the EVM ecosystem as a whole. That would allow Hypra to seemlessly upgrade the chain with easy and continued support."
+          }
+        },
+        {
+          "id": "CdnEbL67Qu",
+          "type": "header",
+          "data": {
+            "text": "Possible candidates",
+            "level": 2
+          }
+        },
+        {
+          "id": "SIAccx090_",
+          "type": "paragraph",
+          "data": {
+            "text": "We have identified 2 possible candidates for this, both are modular in design and support multiple different networks within 1 codebase. They are actively developed and supported and frequently port ethereum features without the battle with Proof-of-stake."
+          }
+        },
+        {
+          "id": "fQZ7UrlsoH",
+          "type": "paragraph",
+          "data": {
+            "text": "<b>Option 1: </b><a href=\"https://www.nethermind.io/\">Nethermind</a><br>Nethermind is an ethereum client built with c#, with modularity and multichain support. Primarly designed to be a diversity client for ethereum.<br>"
+          }
+        },
+        {
+          "id": "OtcRzAQvfg",
+          "type": "paragraph",
+          "data": {
+            "text": "<b>Pros</b>"
+          }
+        },
+        {
+          "id": "S7PM4PWlH8",
+          "type": "list",
+          "data": {
+            "style": "ordered",
+            "items": [
+              "Fast and more efficeint, nethermind uses custom data storage and syncing methods to be faster.",
+              "Funded developement, nethermind is a company with funding to support developement.",
+              "Multichain support, supports Ethereum, Gnosis, Base, Optimism, POA and more."
+            ]
+          }
+        },
+        {
+          "id": "-rsKa58nqD",
+          "type": "paragraph",
+          "data": {
+            "text": "<b>Cons</b>"
+          }
+        },
+        {
+          "id": "LcDM4lHkEe",
+          "type": "list",
+          "data": {
+            "style": "ordered",
+            "items": [
+              "C#, the hypra team does not have adequate experience with C#.",
+              "Company backing could lead to pushing there own narrative."
+            ]
+          }
+        },
+        {
+          "id": "IQhxjwLjd1",
+          "type": "paragraph",
+          "data": {
+            "text": "&nbsp;"
+          }
+        },
+        {
+          "id": "2VYFJvgvXZ",
+          "type": "paragraph",
+          "data": {
+            "text": "<b>Option 2: </b><a href=\"https://etclabscore.github.io/core-geth/\">eth-core</a><br>eth-core is a modified version of geth with modularity and multiple eth chain support as its there core princaples. With focus on supporting the base Ethereum protocal and building ontop of it.<br>"
+          }
+        },
+        {
+          "id": "PPDBya6Svl",
+          "type": "paragraph",
+          "data": {
+            "text": "<b>Pros</b>"
+          }
+        },
+        {
+          "id": "6-mKAAEleo",
+          "type": "list",
+          "data": {
+            "style": "ordered",
+            "items": [
+              "Modified Geth to support multiple chains and modular design.",
+              "Backed by Ethereum Classic and Ethereum Foundation.",
+              "Multichain support, supports Ethereum, Ethereum Classic, POA and Mint.",
+              "Familiar code, based on geth so easier to get to grips with."
+            ]
+          }
+        },
+        {
+          "id": "87i__EztRd",
+          "type": "paragraph",
+          "data": {
+            "text": "<b>Cons</b>"
+          }
+        },
+        {
+          "id": "WEbbUV4N8Q",
+          "type": "list",
+          "data": {
+            "style": "ordered",
+            "items": [
+              "Compared to Nethermind, slower to port over Ethereum features."
+            ]
+          }
+        },
+        {
+          "id": "mU6ZkxNxdN",
+          "type": "paragraph",
+          "data": {
+            "text": "&nbsp;"
+          }
+        },
+        {
+          "id": "yNlfgUBZV3",
+          "type": "header",
+          "data": {
+            "text": "What would Hypra need to do to transition?",
+            "level": 2
+          }
+        },
+        {
+          "id": "iJBXpAoxHx",
+          "type": "paragraph",
+          "data": {
+            "text": "Part of the challange of adding support to either of these clients for Hypra would be to to port over EthashB3 and our custom reward distrobution. Unlike other ethereum based chains, Hypra has a predetermined decreasing mining rewards plan every 3 years, While other chains has a set base reward. "
+          }
+        },
+        {
+          "id": "nv1z9G-uC6",
+          "type": "paragraph",
+          "data": {
+            "text": "Adding the ethashb3 custom algorithm will not be hard as the modular design allows for such additions. But adding the custom chain paramters and chains might be difficult, we will see. "
+          }
+        },
+        {
+          "id": "B5aJ9HP93i",
+          "type": "paragraph",
+          "data": {
+            "text": "So for 2024, Hypra team will be working towards a modular client and deprecate the standard geth client, to help facilitate future chain upgrades with minimal brain fires. When we decide to upgrade to cancun we will not be doing so on geth and will fully migrate to the new client. "
+          }
+        }
+      ],
+      "dateCreated": "February 06, 2024",
+      "timeCreated": "09:39 AM"
+    },
+    {
+      "title": "Hypra the only Proof-of-Work chain to enable Shanghai",
+      "link": "hypra-the-only-proof-of-work-chain-to-enable-shanghai.html",
+      "author": {
+        "id": "2LKIG3",
+        "name": "tagKnife",
+        "avatar": "img/blockit/in-avatar.svg",
+        "bio": "A backend software engineer \"extremely good at one thing\" white text on a black background."
+      },
+      "category": "news",
+      "tags": [
+        "pressrelease",
+        "news",
+        "upgrade"
+      ],
+      "image": "img/user/image-featured-hILZz9.jpg",
+      "biography": true,
+      "comments": true,
+      "hidden": false,
+      "blocks": [
+        {
+          "id": "IrRZ4JeSdY",
+          "type": "paragraph",
+          "data": {
+            "text": "Hypra developement team is proud to announce that the Gaspar fork has been successfully activated on the cryptocurrency network. On block after 1.6 million blocks mined, the Hypra blockchain is on par in features with Ethereum mainnet!<br>"
+          }
+        },
+        {
+          "id": "d-89fWAYv-",
+          "type": "header",
+          "data": {
+            "text": "What is the Hypra Network?",
+            "level": 2
+          }
+        },
+        {
+          "id": "9Ep5Uusz9r",
+          "type": "paragraph",
+          "data": {
+            "text": "The Hypra Network is a Proof-of-Work Ethereum chain that has implemented the BLAKE3 algorithm. This algorithm is a variation of the Ethash algorithm used by the Ethereum network before switching to Proof-of-Stake, but with increased efficiency and security measures."
+          }
+        },
+        {
+          "id": "xnyXHcFLAm",
+          "type": "paragraph",
+          "data": {
+            "text": "Hypra cryptocurrency has implemented the BLAKE3 algorithm to achieve decentralization and prevent the dominance of specialized mining hardware. This creates a fairer environment for miners and reduces the risk of centralization in the network."
+          }
+        },
+        {
+          "id": "PhV10oAQaR",
+          "type": "header",
+          "data": {
+            "text": "About the Shanghai EVM Upgrade",
+            "level": 2
+          }
+        },
+        {
+          "id": "O5U_gSIwWr",
+          "type": "paragraph",
+          "data": {
+            "text": "The Shanghai EVM upgrade is a major milestone for the Hypra as it is the first Proof-of-Work Ethereum chain to implement this upgrade. This upgrade was proposed by the Ethereum community in April 2023 to improve the overall efficiency and security of the network."
+          }
+        },
+        {
+          "id": "g6cT7l29OA",
+          "type": "paragraph",
+          "data": {
+            "text": "The Shanghai upgrade also introduces new opcodes that allow for more efficient and secure smart contract development. These new opcodes enable features such as PUSH0. "
+          }
+        },
+        {
+          "id": "bsO1w3C-XM",
+          "type": "paragraph",
+          "data": {
+            "text": "In comparison to other Ethereum forks, such as ETHPow or ETHFair, Hypra stands out with its implementation of Proof-of-Work and now with the Gaspar upgrade bringing Shanghai features onto their network. This puts them in a unique position within the ecosystem as they are currently the only decentralized EVM network offering these solutions. With this accomplishment, Hypra solidifies itself as a competitor in providing fast and efficient transactions while remaining true to decentralization principles."
+          }
+        },
+        {
+          "id": "lPpArrkc09",
+          "type": "paragraph",
+          "data": {
+            "text": "Overall, the upgrade brings significant improvements to the Hypra Network, making it a more attractive platform for developers and users alike. By implementing this upgrade, Hypra is further solidifying its position as a leading Proof-of-Work Ethereum chain and paving the way for future advancements and developments in the network."
+          }
+        },
+        {
+          "id": "XcGrbAjMWi",
+          "type": "header",
+          "data": {
+            "text": "Why Hypra is the only network to enable Shanghai?",
+            "level": 2
+          }
+        },
+        {
+          "id": "QaQl3UKrSY",
+          "type": "paragraph",
+          "data": {
+            "text": "Hypra's implementation of the Shanghai upgrade is a significant achievement, that we are able to accomplish because we have an active team of experienced developers. "
+          }
+        },
+        {
+          "id": "FQF9jiMiU0",
+          "type": "paragraph",
+          "data": {
+            "text": "Other Proof-of-Work Ethereum chains may face technical limitations or challenges in implementing the Shanghai upgrade, as they may not have the same level of experience and knowledge of Ethereum as the Hypra team. Additionally, Hypra's dedicated team of developers and community members have worked tirelessly to ensure a smooth implementation of the upgrade."
+          }
+        },
+        {
+          "id": "3SIYfEyZGT",
+          "type": "paragraph",
+          "data": {
+            "text": "The potential growth and development for the network, Hypra's achievements with implementing Shanghai features through Gaspar upgrade have certainly put them ahead in terms of technological advancements among other EVM networks. This could make them an attractive option for developers seeking a reliable platform that offers both scalability and security without frequent disruptions or upgrades."
+          }
+        },
+        {
+          "id": "aXS23MbALL",
+          "type": "paragraph",
+          "data": {
+            "text": "By being the first and only Proof-of-Work Ethereum chain to enable the Shanghai upgrade, Hypra is setting itself apart from other networks and establishing itself as a leader in the space. This achievement also highlights Hypra's commitment to innovation and staying up-to-date with the latest advancements in cryptocurrency and blockchain technology."
+          }
+        },
+        {
+          "id": "XYQG0EjEyX",
+          "type": "paragraph",
+          "data": {
+            "text": "This fork was acheived on block: <a href=\"https://explorer.hypra.network/block/1600957/transactions\">1,600,957</a>"
+          }
+        }
+      ],
+      "dateCreated": "December 29, 2023",
+      "timeCreated": "09:02 AM"
+    },
+    {
+      "title": "Rethereum is changing to Hypra",
+      "link": "rethereum-is-changing-to-hypra.html",
+      "author": {
+        "id": "2LKIG3",
+        "name": "tagKnife",
+        "avatar": "img/blockit/in-avatar.svg",
+        "bio": "A backend software engineer \"extremely good at one thing\" white text on a black background."
+      },
+      "category": "news",
+      "tags": [
+        "rethereum",
+        "hypra",
+        "rename"
+      ],
+      "image": false,
+      "biography": true,
+      "comments": true,
+      "hidden": false,
+      "blocks": [
+        {
+          "id": "O0GEYOSJmS",
+          "type": "paragraph",
+          "data": {
+            "text": "Rethereum, the innovative Ethereum Proof-of-Work EVM chain, is excited to announce its rename campaign and the final name as chosen by the community: <b>Hypra</b>, with the ticker symbol 'HYP'. "
+          }
+        },
+        {
+          "id": "UiY41NJqj4",
+          "type": "paragraph",
+          "data": {
+            "text": "The rename campaign was launched in November to address the main challenge of being overshadowed by Ethereum and to highlight the unique and never before done features of Rethereum. "
+          }
+        },
+        {
+          "id": "AG-OY7HIu_",
+          "type": "paragraph",
+          "data": {
+            "text": "Hypra aims to be a fast, secure and scalable EVM chain that preserves the Proof-of-Work consensus mechanism and supports interoperability with other blockchains. Hypra also introduces novel innovations such as dynamic block rewards, adaptive difficulty adjustment, and incorporating Ethereums Proof-of-Stake upgrade features while keeping Proof-of-Work. The new name reflects the vision of creating a hyper-efficient and hyper-connected EVM chain that can power the future of decentralized applications. "
+          }
+        },
+        {
+          "id": "2LSohvGv8g",
+          "type": "paragraph",
+          "data": {
+            "text": "The rename campaign was a success, with over 1,000 community members participating in the voting process and expressing their support for the new name. The official rebranding will take place on <b>December 8th</b>, when the Hypra switch over will go happen. Hypra invites everyone to join the celebration and witness the EVM chain that will revolutionize the Proof-of-Work space."
+          }
+        },
+        {
+          "id": "yOnGmF4u0C",
+          "type": "paragraph",
+          "data": {
+            "text": "The community support for Hypra has been overwhelming, with many users expressing their enthusiasm and excitement for the new name and the new features. Hypra is not only a name change, but also a brand identity that reflects the values and vision of the project and its community."
+          }
+        },
+        {
+          "id": "12rMv29GUu",
+          "type": "paragraph",
+          "data": {
+            "text": "Hypra is also looking forward to expanding its reach and adoption to new markets and regions, where it can offer a superior EVM experience to users and developers. Hypra is committed to building a global and diverse community that shares its passion for decentralization and innovation. Hypra believes that by working together, it can create a more inclusive and sustainable EVM ecosystem that benefits everyone."
+          }
+        },
+        {
+          "id": "By1A6Wia5v",
+          "type": "header",
+          "data": {
+            "text": "Detailed changes",
+            "level": 2
+          }
+        },
+        {
+          "id": "NflCQMmUDo",
+          "type": "paragraph",
+          "data": {
+            "text": "The blockchain will not be changed, all your funds and coins will not disapear and nothing needs to be done by the users."
+          }
+        },
+        {
+          "id": "k6so4cJZxl",
+          "type": "paragraph",
+          "data": {
+            "text": "Name will be <b>Hypra</b><br>Symbol will be <b>HYP</b><br>Twitter handle has changed to <a href=\"https://twitter.com/HypraNetwork\">@HypraNetwork</a><br>Domain will be <a href=\"https://hypra.network/\">https://hypra.network/</a>"
+          }
+        }
+      ],
+      "dateCreated": "December 02, 2023",
+      "timeCreated": "03:51 PM"
+    },
     {
       "title": "Rethereum has a blog now!",
       "link": "rethereum-has-a-blog-now.html",
