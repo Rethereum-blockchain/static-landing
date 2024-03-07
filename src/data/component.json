@@ -4,7 +4,7 @@
       "slides": [
         {
           "id": "vZ0JQn",
-          "text": "<li>\n    <div class=\"uk-container\">\n        <div class=\"uk-grid-medium uk-grid\" data-uk-grid=\"\">\n            <div class=\"uk-width-1-2@s uk-first-column\">\n                <div class=\"uk-overlay\">\n                    <h1>New standard<br>in EVM blockchains.</h1>\n                    <p class=\"uk-text-lead uk-visible@m\">Proof-of-Work, Tokens, NFTs and smart contracts all on one network.</p>\n                    <a href=\"https://explorer.rethereum.org\" class=\"uk-button uk-button-default uk-border-rounded uk-visible@s\">Explore Network</a>\n                </div>\n            </div>\n            <div class=\"uk-width-1-2@s\">\n                <img class=\"in-slide-img\" src=\"{{root}}img/in-lazy.gif\" data-src=\"{{root}}img/in-liquid-slide-1.svg\" alt=\"image-slide\" width=\"500\" height=\"400\"\n                    data-uk-img=\"\">\n            </div>\n        </div>\n    </div>\n</li>"
+          "text": "<li>\n    <div class=\"uk-container\">\n        <div class=\"uk-grid-medium uk-grid\" data-uk-grid=\"\">\n            <div class=\"uk-width-1-2@s uk-first-column\">\n                <div class=\"uk-overlay\">\n                    <h1>New standard<br>in EVM blockchains.</h1>\n                    <p class=\"uk-text-lead uk-visible@m\">Hypra is Proof-of-Work, Tokens, NFTs and smart contracts all on one network.</p>\n                    <a href=\"{{setting.siteInfo.explorer}}\" class=\"uk-button uk-button-default uk-border-rounded uk-visible@s\">Explore Network</a>\n                </div>\n            </div>\n            <div class=\"uk-width-1-2@s\">\n                <img class=\"in-slide-img\" src=\"{{root}}img/in-lazy.gif\" data-src=\"{{root}}img/in-liquid-slide-1.svg\" alt=\"image-slide\" width=\"500\" height=\"400\"\n                    data-uk-img=\"\">\n            </div>\n        </div>\n    </div>\n</li>"
         }
       ]
     },
@@ -20,13 +20,13 @@
   ],
   "header": {
     "siteLogo": {
-      "src": "img/user/header-logo-7QYeiL.png",
-      "width": "66",
-      "height": "66"
+      "src": "img/user/header-logo-mz95qP.png",
+      "width": "75",
+      "height": "75"
     },
     "signup": {
       "title": "Add Network",
-      "url": "#",
+      "url": "",
       "external": false,
       "display": true
     },
@@ -38,7 +38,7 @@
     }
   },
   "footer": {
-    "copyrightText": "Copyright ©2023 Rethereum Org. All Rights Reserved.",
+    "copyrightText": "Copyright ©2023 Hypra Network. All Rights Reserved.",
     "siteLogo": {
       "enabled": false,
       "logo": {
@@ -58,7 +58,7 @@
       "facebook": ""
     },
     {
-      "twitter": "https://twitter.com/RethereumOrg"
+      "twitter": "https://twitter.com/HypraNetwork"
     },
     {
       "instagram": ""
