@@ -15,6 +15,11 @@
     "link": "https://explorer.rethereum.org/"
   },
   {
+    "title": "Exchange",
+    "slug": "exchange",
+    "link": "https://www.bitmart.com/trade/en-US?symbol=HYP_USDT"
+  },
+  {
     "title": "Blog",
     "slug": "blog",
     "link": "blog.html"
