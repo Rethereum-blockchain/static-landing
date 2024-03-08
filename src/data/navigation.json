@@ -2,21 +2,21 @@
   {
     "title": "Home",
     "slug": "home",
-    "link": "index.html"
+    "link": "/index.html"
   },
   {
     "title": "Mining",
     "slug": "mining",
-    "link": "mining.html"
+    "link": "/mining.html"
   },
   {
     "title": "Explorer",
     "slug": "explorer",
-    "link": "https://explorer.rethereum.org/"
+    "link": "https://explorer.hypra.network/"
   },
   {
     "title": "Blog",
     "slug": "blog",
-    "link": "blog.html"
+    "link": "/blog.html"
   }
 ]
