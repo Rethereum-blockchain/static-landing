@@ -13,8 +13,6 @@
     {{> component-preload }}
     {{/if}}
     {{> component-styles }}
-    <!-- uikit -->
-    <script src="{{root}}js/vendors/uikit.min.js"></script>
     <!-- favicon -->
     <link rel="shortcut icon" href="{{root}}{{setting.siteInfo.favicon}}" type="image/x-icon">
     <!-- touch icon -->
@@ -27,5 +25,8 @@
     {{> body }}
     {{> component-scripts }}
 </body>
-
+<script src="/js/vendors/uikit.min.js"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-9CTSD87ZTN"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-9CTSD87ZTN');</script>
 </html>

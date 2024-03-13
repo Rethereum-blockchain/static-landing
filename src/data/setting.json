@@ -65,10 +65,8 @@
     "disqussShortname": "html-demo"
   },
   "release": {
-
     "version": "v1.13.5",
     "link": "https://github.com/Rethereum-blockchain/go-rethereum/releases/tag/v1.13.5"
-
   },
   "optimization": {
     "minifyAssets": {

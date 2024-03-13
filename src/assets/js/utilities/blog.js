@@ -16,12 +16,12 @@ class Blog {
             .then(responses => {
                 return Promise.all(responses.map(response => response.json()))
             })
-            .then(data => {                
+            .then(data => {
                 this.createCategoryWidget(data)
-                this.createLatestWidget(data)
                 this.createTagWidget(data)
                 this.createFindPage(data)
                 this.createPagination(data)
+                this.createLatestWidget(data)
                 this.searchForm(data)
             })
 
@@ -43,9 +43,7 @@ class Blog {
     contentTruncate() {
         this.articleWrap.forEach(txt => {
             let currentText = txt.querySelector('p')
-            let truncateText = this.trimLongTitle(currentText.innerText, 150)
-
-            currentText.innerText = truncateText
+            currentText.innerText = this.trimLongTitle(currentText.innerText, 150)
         })
     }
 
@@ -118,7 +116,7 @@ class Blog {
             }
 
             // show the next button if the page value is greater than 1
-            if(page > 3) { 
+            if(page > 3) {
                 liTag += `<li class="page-item"><a class="page-link" href="${data[0].asBlog}" aria-label="previous"><span aria-hidden="true">&laquo;</span></a></li>`
             }
 
@@ -134,17 +132,17 @@ class Blog {
 
             for (let plength = beforePage; plength <= afterPage; plength++) {
                 // if plength is greater than totalPage length then continue
-                if (plength > totalPages) { 
+                if (plength > totalPages) {
                     continue
                 }
 
                 // if plength is 0 than add +1 in plength value
-                if (plength == 0) { 
+                if (plength == 0) {
                     plength = plength + 1
                 }
 
                 // if page is equal to plength than assign active string in the active variable
-                if(page == plength){ 
+                if(page == plength){
                     active = 'class="uk-active"'
                 }else{ // else leave empty to the active variable
                     active = ''
@@ -153,7 +151,7 @@ class Blog {
             }
 
             // show the next button if the page value is less than totalPage(20)
-            if (page < totalPages - 1) { 
+            if (page < totalPages - 1) {
                 liTag += `<li><a href="${this.sanitizePath}-page-${totalPages}.html" aria-label="next"><span aria-hidden="true">&raquo;</span></a></li>`
             }
             // add li tag inside ul tag
@@ -269,7 +267,7 @@ class Blog {
 </article>`
                 postWrap.appendChild(notFoundDiv)
             }
-        } 
+        }
     }
 
     postFormat({link, title, content, author, date, category}) {
@@ -324,8 +322,7 @@ class Blog {
         for (var i = 0; i < arr.length; i++) {
             arr[i] = arr[i].charAt(0).toUpperCase() + arr[i].slice(1)
         }
-        const result = arr.join(" ")
-        return result
+        return arr.join(" ")
     }
 
     trimLongTitle(string, number) {
